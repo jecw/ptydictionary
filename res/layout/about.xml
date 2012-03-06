@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <TextView android:layout_height="wrap_content"
+  	android:text="Jessica is a Panamanian studying Computer Science at UT-Austin. Catch her on Twitter.com/jecw. Instead of wishing you a good day, she'd rather mention that a regular (or crappy) day can still turn to an awesome day if you really want it to. So get to it!"
+  	android:layout_width="wrap_content" android:id="@+id/textView1"></TextView>
+    
+</LinearLayout>
