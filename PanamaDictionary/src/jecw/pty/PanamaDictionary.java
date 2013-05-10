@@ -10,8 +10,8 @@ import android.widget.Button;
 
 public class PanamaDictionary extends Activity implements OnClickListener {
 	
-	Button bAgarrar, bAlla, bArrabalero, bArranque, bArrebatina, bArrepinchoso,        bAwebao, bArrecho;
-	MediaPlayer agarrar, alla, arrabalero, arranque, arrebatina, arrepinchoso,          awebao, arrecho;
+	Button bAgarrar, bAlla, bArrabalero, bArranque, bArrebatina, bArrepinchoso, bAwebao, bArrecho;
+	MediaPlayer agarrar, alla, arrabalero, arranque, arrebatina, arrepinchoso, awebao, arrecho;
 	
     /** Called when the activity is first created. */
     @Override
