@@ -23,15 +23,29 @@ int main () {
 		istringstream iss(line);
 		string word = "";
 		string def = "";
-		unsigned separator = line.find('=');
+		unsigned separator = line.find( ' = ');
 		// string line1 = line;
-		word = line.substr(0,separator - 1);
+		word = line.substr(0,separator);
 		if (word != "" && isalpha(word[0])) {
-			def = line.substr(separator+1);
-			// cout << "word is " << word << " and def is " << def << endl;
+			def = line.substr(separator + 3);
+			
+			unsigned end = def.find('\n');
+			def = line.substr(separator + 3, end-1);
+			
+			//capitalize first letter of definition
 			def[0] = toupper(def[0]);
-			if (def[def.length()-1] != '.')
-				def += '.'; //agregar punto de oracion. Chequear
+			// if (def[def.length()-1] != '.')
+				// def += '.'; //agregar punto de oracion. Chequear
+			
+			//remove accents from word
+			int findA = word.find('á'); int findE = word.find('é'); int findI = word.find('í'); int findO = word.find('ó'); int findU = word.find('ú');
+			if (findA != -1) word = word.substr(0, findA-1) + 'a' + word.substr(findA+1);
+			if (findE != -1) word = word.substr(0, findE-1) + 'e' + word.substr(findE+1);
+			if (findI != -1) word = word.substr(0, findI-1) + 'i' + word.substr(findI+1);
+			if (findO != -1) word = word.substr(0, findO-1) + 'o' + word.substr(findO+1);
+			if (findU != -1) word = word.substr(0, findU-1) + 'u' + word.substr(findU+1);
+			// if (word.find("Xopa") != -1) cout << findE << endl;
+			
 			grid[word] = def;
 			lastWord = word;
 		}
@@ -39,8 +53,54 @@ int main () {
 	} ifs.close();
 	
 	ofstream output;
-	output.open("PanamaDictionary.java");
+	/*
+	//*************************************beginning of strings.xml************************
+	output.open("strings.xml");
+	/////***print headers
+	output << "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<resources>\n";
+	typedef map<string, string>::iterator it_type;
+	for(it_type iterator = grid.begin(); iterator != grid.end(); iterator++) {
+		string word;
+		string def;
+		word = iterator->first;
+		def = iterator->second;
+		
+		//undo capitalization of words
+		string small = word;
+		small[0] = tolower(small[0]);
+		
+		//////**remove accents from word
+		// int findA = word.find('á'); int findE = word.find('é'); int findI = word.find('í'); int findO = word.find('ó'); int findU = word.find('ú');
+		// if (findA != -1) word = word.substr(0, findA-1) + 'a' + word.substr(findA+1);
+		// else if (findE != -1) word = word.substr(0, findE) + 'e' + word.substr(findE+1);
+		// else if (findI != -1) word = word.substr(0, findI-1) + 'i' + word.substr(findI+1);
+		// else if (findO != -1) word = word.substr(0, findO-1) + 'o' + word.substr(findO+1);
+		// else if (findU != -1) word = word.substr(0, findU-1) + 'u' + word.substr(findU+1);
+		
+		// if (word.find("Xopa") != -1) cout << findE << endl;
+		
+		/////def in one line
+		int findNewLine = def.find('\n');
+		if (findNewLine != -1) def = def.substr(0,findNewLine-1);
+		else {
+			int findR = def.find('\r');
+			def = def.substr(0,findR);
+		}
+		
+		//add period to def
+		char period = '.';
+		char last = def[def.length()-1];
+		if (isalpha(last)) def += period;
+		
+		
+		output << "\t<string name=\"" << small << "\">" << def << "</string>\n";
+	}
+	output << "</resources>\n"; 
+	//*************************************end of strings.xml**********************
+	*/
 	
+	//*************************************PanamaDictionary.java
+ 	output.open("PanamaDictionary.java");
 	//print headers
 	output <<"//PanamaDictionary.java\n\npackage jecw.pty;\n\n";
 	map<int,string> importGrid;
@@ -138,6 +198,7 @@ int main () {
 	output <<"\t\t}\n"; //end of switch
 	output <<"\t}\n"; //end of onClick(View v)
 	output <<"}\n"; 
+	//*************************************end of PanamaDictionary.java
 	
 	output.close();
 	return 0;
