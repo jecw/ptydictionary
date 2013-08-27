@@ -1568,14 +1568,76 @@
                 android:textColor="#ffffff" >
         </TextView>
 
+
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+            <TextView
+                    android:id="@+id/tvChivaTerm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="Chiva"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:typeface="serif" >
+            </TextView>
+            <Button
+                    android:id="@+id/bChivaSound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/custom"
+                    android:typeface="serif" >
+            </Button>
+        </LinearLayout>
+        <TextView
+                android:id="@+id/tvChivaDef"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Transporte colectivo de capacidad media."
+                android:textColor="#ffffff" >
+        </TextView>
+
+
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+            <TextView
+                    android:id="@+id/tvCholoTerm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="Cholo"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:typeface="serif" >
+            </TextView>
+            <Button
+                    android:id="@+id/bCholoSound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/custom"
+                    android:typeface="serif" >
+            </Button>
+        </LinearLayout>
+        <TextView
+                android:id="@+id/tvCholoDef"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="En zonas del interior haciendo referencia a amigo, en la ciudad hace referencia a personas del interior."
+                android:textColor="#ffffff" >
+        </TextView>
+
 <!--
-	* Chicha = Refresco o bebida fermentada. (Esta palabra, recogida por la RAE y de etimología panameña es usada en Centroamérica, Chile y Perú, con ciertas variaciones)
-	* Chinguear = apostar
-	* Chino o Chinito = bodega / tienda de abarrotes (dícese porque generalmente están administradas por chinos)
-	* Chiva = Transporte colectivo de capacidad media
-	* Cholo= En zonas del interior haciendo referencia a amigo, en la ciudad hace referencia a personas del interior.
-	* CholoPop = un 'compa' que acaba de llegar a la capital vestido como en los 70s', con el pecho afuero y usando essencia de pacholi como perfume.
-	* Chuain = (de pronunciación rápida) Esta es un sinónimo de "Yeye" y es una persona acomodada, alta alcurnia, delicada o adinerada.
+
 	* Chuleta = Exclamacion de sorpresa o admiracion
 	* Chupar = Ingerir bebidas alcoholicas
 	* Chuzo = Ver "Chuleta"
