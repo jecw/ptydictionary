@@ -53,7 +53,7 @@ int main () {
 	} ifs.close();
 	
 	ofstream output;
-	/*
+	
 	//*************************************beginning of strings.xml************************
 	output.open("strings.xml");
 	/////***print headers
@@ -97,9 +97,10 @@ int main () {
 	}
 	output << "</resources>\n"; 
 	//*************************************end of strings.xml**********************
-	*/
+	
 	
 	//*************************************main.xml
+/*
  	output.open("main.xml");
 	//print headers
 	output <<"<?xml version=\"1.0\" encoding=\"utf-8\"?>\n";
@@ -156,7 +157,8 @@ int main () {
 	//last LinearLayout
 	output <<"\t</LinearLayout>\n";
 	output << "</ScrollView>";
-	
+*/
+	//*************************************end of main.xml**********************
 	output.close();
 	return 0;
 }
