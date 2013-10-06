@@ -8,13 +8,13 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <sstream>
-// #include "definicionesV1.txt"
+// #include "definicionesV2.txt"
 
 int main () {
     using namespace std;
     ios_base::sync_with_stdio(false); // turn off synchronization with C I/O
   ifstream ifs;
-	ifs.open("definicionesV1.txt");
+	ifs.open("definicionesV2.txt");
 	string line;
 	string lastWord;
 	map<string,string> grid;
@@ -145,14 +145,16 @@ int main () {
 			output << "\t\t\tandroid:typeface=\"serif\" >\n";
 			output << "\t\t</Button>\n";
 			output << "\t</LinearLayout>\n";
-			output << "\t<TextView android:layout_height=\"wrap_content\" android:id=\"@+id/tv" << word << "Def\"\n";
-			output << "\t\tandroid:layout_width=\"fill_parent\" android:text=\""<< def << "\"\n";
+			output << "\t<TextView android:layout_height=\"wrap_content\"\n";
+			output << "\t\tandroid:id=\"@+id/tv" << word << "Def\"\n";
+			output << "\t\tandroid:layout_width=\"fill_parent\"\n";
+			output << "\t\tandroid:text=\""<< def << "\"" << ">" << "\n";
 			output << "\t</TextView>\n\n\n";
 	}
 	
 
 	//last LinearLayout
-	output <<"\t<LinearLayout>\n";
+	output <<"\t</LinearLayout>\n";
 	output << "</ScrollView>";
 	
 	output.close();
