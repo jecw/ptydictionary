@@ -1,5 +1,3 @@
-Formato:
-	Palabra = 1. (Tipo) Definicion. Ejemplo: x. 2. (Tipo) Definicion. Ejemplo:.
 Ahuevao = (Adj.) Huevón, lento, imbécil.
 Ahuevasón = (Sust.) Tontería, idiotez.
 Atorrancia = 1. (Sust.) Vagancia, pereza. 2. (Sust.) Frase o acción que no tiene sentido.
