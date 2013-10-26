@@ -13,8 +13,8 @@ import android.widget.Button;
 
 public class PanamaDictionary extends Activity implements OnClickListener {
 
-	Button bAhuevao, bAhuevason, bAtorrancia, bAyala, bBate, bBerraco, bBerrinche, bBiencuidao, bBirria, bBochinche, bBotar, bBote, bBrujo, bBuco, bBueno, bBurundanga, bCamaron, bChantin, bChenchen, bChequear, bChicha, bChichi, bChifear, bChilin, bChinguear, bChiva, bChiwi, bCholo, bChombo, bChota, bChotear, bChuleta, bChupar, bChuzo, bCompa, bConflei, bCool, bCoscorron, bCuara, bCulantro, bCulei, bDain, bDatien, bDiabloRojo, bFocop, bFren, bFulo, bFundillo, bGallo, bGarnaton, bGrajo, bGrubear, bGuachiman, bGuacho, bGuaro, bGuial, bHuevear, bJoder, bJuegaVivo, bLaope, bLevante, bLimpio, bLiquipeiper, bLleca, bLoco, bMachoemonte, bMafa, bMaleante, bMan, bManzanillo, bMeValeVerga, bMeña, bMili, bNevera, bNoFitin, bNoMeParece, bOfi, bOmbe, bPaciero, bPalante, bParkin, bParquear, bPatacon, bPatatus, bPay, bPerro, bPeso, bPicando, bPiedrero, bPilar, bPinta, bPlena, bPonchera, bPrakaPraka, bPriti, bQueXopa, bQueloquee, bQuemado, bRakataca, bRantan, bReal, bRilax, bRispect, bSalado, bSarao, bSolido, bTaBien, bTarrantan, bTatai, bTinaco, bVaina, bValeCebo, bViolinista, bYeye;
-	MediaPlayer ahuevao, ahuevason, atorrancia, ayala, bate, berraco, berrinche, biencuidao, birria, bochinche, botar, bote, brujo, buco, bueno, burundanga, camaron, chantin, chenchen, chequear, chicha, chichi, chifear, chilin, chinguear, chiva, chiwi, cholo, chombo, chota, chotear, chuleta, chupar, chuzo, compa, conflei, cool, coscorron, cuara, culantro, culei, dain, datien, diabloRojo, focop, fren, fulo, fundillo, gallo, garnaton, grajo, grubear, guachiman, guacho, guaro, guial, huevear, joder, juegaVivo, laope, levante, limpio, liquipeiper, lleca, loco, machoemonte, mafa, maleante, man, manzanillo, meValeVerga, meña, mili, nevera, noFitin, noMeParece, ofi, ombe, paciero, palante, parkin, parquear, patacon, patatus, pay, perro, peso, picando, piedrero, pilar, pinta, plena, ponchera, prakaPraka, priti, queXopa, queloquee, quemado, rakataca, rantan, real, rilax, rispect, salado, sarao, solido, taBien, tarrantan, tatai, tinaco, vaina, valeCebo, violinista, yeye;
+	Button bAhuevao, bAhuevason, bAtorrancia, bAyala, bBate, bBerraco, bBerrinche, bBiencuidao, bBirria, bBochinche, bBotar, bBote, bBrujo, bBuco, bBueno, bBurundanga, bCamaron, bChantin, bChenchen, bChequear, bChicha, bChichi, bChifear, bChilin, bChinguear, bChiva, bChiwi, bCholo, bChombo, bChota, bChotear, bChuleta, bChupar, bChuzo, bCompa, bConflei, bCool, bCoscorron, bCuara, bCulantro, bCulei, bDain, bDatien, bDiabloRojo, bFocop, bFren, bFulo, bFundillo, bGallo, bGarnaton, bGrajo, bGrubear, bGuachiman, bGuacho, bGuaro, bGuial, bHuevear, bJoder, bJuegaVivo, bLaope, bLevante, bLimpio, bLiquipeiper, bLleca, bLoco, bMachoemonte, bMafa, bMaleante, bMan, bManzanillo, bMeValeVerga, bMeÃ±a, bMili, bNevera, bNoFitin, bNoMeParece, bOfi, bOmbe, bPaciero, bPalante, bParkin, bParquear, bPatacon, bPatatus, bPay, bPerro, bPeso, bPicando, bPiedrero, bPilar, bPinta, bPlena, bPonchera, bPrakaPraka, bPriti, bQueXopa, bQueloquee, bQuemado, bRakataca, bRantan, bReal, bRilax, bRispect, bSalado, bSarao, bSolido, bTaBien, bTarrantan, bTatai, bTinaco, bVaina, bValeCebo, bViolinista, bYeye;
+	MediaPlayer ahuevao, ahuevason, atorrancia, ayala, bate, berraco, berrinche, biencuidao, birria, bochinche, botar, bote, brujo, buco, bueno, burundanga, camaron, chantin, chenchen, chequear, chicha, chichi, chifear, chilin, chinguear, chiva, chiwi, cholo, chombo, chota, chotear, chuleta, chupar, chuzo, compa, conflei, cool, coscorron, cuara, culantro, culei, dain, datien, diabloRojo, focop, fren, fulo, fundillo, gallo, garnaton, grajo, grubear, guachiman, guacho, guaro, guial, huevear, joder, juegaVivo, laope, levante, limpio, liquipeiper, lleca, loco, machoemonte, mafa, maleante, man, manzanillo, meValeVerga, meÃ±a, mili, nevera, noFitin, noMeParece, ofi, ombe, paciero, palante, parkin, parquear, patacon, patatus, pay, perro, peso, picando, piedrero, pilar, pinta, plena, ponchera, prakaPraka, priti, queXopa, queloquee, quemado, rakataca, rantan, real, rilax, rispect, salado, sarao, solido, taBien, tarrantan, tatai, tinaco, vaina, valeCebo, violinista, yeye;
 
 	// Called when the activity is first created.
 	@Override
@@ -23,11 +23,11 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 		this.setVolumeControlStream(AudioManager.STREAM_MUSIC);
 		setContentView(R.layout.main);
 
-		bAhuevao = (Button) findViewById(R.id.bAhuevaoSound);
+		bAhuevao = (Button) findViewById(R.id.bAwebaoSound);
 		bAhuevao.setOnClickListener(this);
 		ahuevao = MediaPlayer.create(PanamaDictionary.this, R.raw.ahuevao);
 
-		bAhuevason = (Button) findViewById(R.id.bAhuevasonSound);
+		bAhuevason = (Button) findViewById(R.id.bAwebasonSound);
 		bAhuevason.setOnClickListener(this);
 		ahuevason = MediaPlayer.create(PanamaDictionary.this, R.raw.ahuevason);
 
@@ -307,9 +307,9 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 		bMeValeVerga.setOnClickListener(this);
 		meValeVerga = MediaPlayer.create(PanamaDictionary.this, R.raw.meValeVerga);
 
-		bMeña = (Button) findViewById(R.id.bMeñaSound);
-		bMeña.setOnClickListener(this);
-		meña = MediaPlayer.create(PanamaDictionary.this, R.raw.meña);
+		bMeÃ±a = (Button) findViewById(R.id.bMeÃ±aSound);
+		bMeÃ±a.setOnClickListener(this);
+		meÃ±a = MediaPlayer.create(PanamaDictionary.this, R.raw.meÃ±a);
 
 		bMili = (Button) findViewById(R.id.bMiliSound);
 		bMili.setOnClickListener(this);
@@ -697,8 +697,8 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 		case R.id.bMeValeVergaSound:
 			meValeVerga.start();
 			break;
-		case R.id.bMeñaSound:
-			meña.start();
+		case R.id.bMeÃ±aSound:
+			meÃ±a.start();
 			break;
 		case R.id.bMiliSound:
 			mili.start();
