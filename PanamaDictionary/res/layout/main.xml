@@ -25,7 +25,7 @@
 			android:textColor="#ffffff" >
 		</TextView>
 		<Button android:layout_height="fill_parent"
-			android:id="@+id/bAhuevaoSound"
+			android:id="@+id/bAwebaoSound"
 			android:layout_width="wrap_content"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
@@ -43,7 +43,7 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Ahuevason"
+		<TextView android:text="Ahuevasón"
 			android:id="@+id/tvAhuevasonTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
@@ -54,7 +54,7 @@
 			android:textColor="#ffffff" >
 		</TextView>
 		<Button android:layout_height="fill_parent"
-			android:id="@+id/bAhuevasonSound"
+			android:id="@+id/bAwebasonSound"
 			android:layout_width="wrap_content"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
@@ -217,7 +217,7 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Biencuidao"
+		<TextView android:text="Biencuida'o"
 			android:id="@+id/tvBiencuidaoTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
@@ -478,7 +478,7 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Camaron"
+		<TextView android:text="Camarón"
 			android:id="@+id/tvCamaronTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
@@ -623,7 +623,7 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Chichi"
+		<TextView android:text="Chichí"
 			android:id="@+id/tvChichiTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
@@ -1058,7 +1058,7 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Coscorron"
+		<TextView android:text="Coscorrón"
 			android:id="@+id/tvCoscorronTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
@@ -1232,7 +1232,7 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="DiabloRojo"
+		<TextView android:text="Diablo Rojo"
 			android:id="@+id/tvDiabloRojoTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
@@ -1282,39 +1282,6 @@
 		android:id="@+id/tvFocopDef"
 		android:layout_width="fill_parent"
 		android:text="(Adj.) Feo, en mal estado. Viene del inglés 'fucked up'. 
-">
-	</TextView>
-
-
-	<LinearLayout android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:orientation="horizontal"
-		android:weightSum="100">
-		<TextView android:text="Formato:
-"
-			android:id="@+id/tvFormato:
-Term"
-			android:textSize="20sp"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:layout_weight="10"
-			android:typeface="serif"
-			android:textStyle="bold"
-			android:textColor="#ffffff" >
-		</TextView>
-		<Button android:layout_height="fill_parent"
-			android:id="@+id/bFormato:
-Sound"
-			android:layout_width="wrap_content"
-			android:background="@drawable/custom"
-			android:typeface="serif" >
-		</Button>
-	</LinearLayout>
-	<TextView android:layout_height="wrap_content"
-		android:id="@+id/tvFormato:
-Def"
-		android:layout_width="fill_parent"
-		android:text="Rmato:
 ">
 	</TextView>
 
@@ -1439,7 +1406,7 @@ Def"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Garnaton"
+		<TextView android:text="Garnatón"
 			android:id="@+id/tvGarnatonTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
@@ -1575,7 +1542,7 @@ Def"
 	<TextView android:layout_height="wrap_content"
 		android:id="@+id/tvGuachoDef"
 		android:layout_width="fill_parent"
-		android:text=". (Sust.) Sopa espesa que lleva ñame, yuca, culantro, arroz, verduras y alguna carne, que puede ser res, rabito de puerco o chicharrón. El guacho se sirve tradicionalmente en una 'totuma', plato que se fabrica partiendo a la mitad unos frutos redondos y duros que crecen en el monte. 2. (Sust.) La combinacion de varias cosas.
+		android:text="(Sust.) Sopa espesa que lleva ñame, yuca, culantro, arroz, verduras y alguna carne, que puede ser res, rabito de puerco o chicharrón. El guacho se sirve tradicionalmente en una 'totuma', plato que se fabrica partiendo a la mitad unos frutos redondos y duros que crecen en el monte. 2. (Sust.) La combinacion de varias cosas.
 ">
 	</TextView>
 
@@ -1700,7 +1667,7 @@ Def"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="JuegaVivo"
+		<TextView android:text="Juegavivo"
 			android:id="@+id/tvJuegaVivoTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
@@ -1932,7 +1899,7 @@ Def"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Mafa"
+		<TextView android:text="Mafá"
 			android:id="@+id/tvMafaTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
@@ -2048,7 +2015,7 @@ Def"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="MeValeVerga"
+		<TextView android:text="Me vale verga"
 			android:id="@+id/tvMeValeVergaTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
@@ -2078,7 +2045,7 @@ Def"
 		android:orientation="horizontal"
 		android:weightSum="100">
 		<TextView android:text="Meña"
-			android:id="@+id/tvMeñaTerm"
+			android:id="@+id/tvMenaTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
@@ -2088,14 +2055,14 @@ Def"
 			android:textColor="#ffffff" >
 		</TextView>
 		<Button android:layout_height="fill_parent"
-			android:id="@+id/bMeñaSound"
+			android:id="@+id/bMenaSound"
 			android:layout_width="wrap_content"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
 	</LinearLayout>
 	<TextView android:layout_height="wrap_content"
-		android:id="@+id/tvMeñaDef"
+		android:id="@+id/tvMenaDef"
 		android:layout_width="fill_parent"
 		android:text="(Sust.) Jóvenes de la calle de mal hablar y vestir. Denota las últimas 4 letras de la nacionalidad Panameña. 
 ">
@@ -2164,7 +2131,7 @@ Def"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="NoFitin"
+		<TextView android:text="No fitin"
 			android:id="@+id/tvNoFitinTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
@@ -2193,7 +2160,7 @@ Def"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="NoMeParece"
+		<TextView android:text="No me parece"
 			android:id="@+id/tvNoMePareceTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
@@ -2396,7 +2363,7 @@ Def"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Patacon"
+		<TextView android:text="Patacón"
 			android:id="@+id/tvPataconTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
@@ -2425,7 +2392,7 @@ Def"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Patatus"
+		<TextView android:text="Patatús"
 			android:id="@+id/tvPatatusTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
@@ -2715,7 +2682,7 @@ Def"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="PrakaPraka"
+		<TextView android:text="Praka praka"
 			android:id="@+id/tvPrakaPrakaTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
@@ -2773,7 +2740,7 @@ Def"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="QueXopa"
+		<TextView android:text="Qué xopa"
 			android:id="@+id/tvQueXopaTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
@@ -2802,7 +2769,7 @@ Def"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Queloquee"
+		<TextView android:text="Que lo que e'"
 			android:id="@+id/tvQueloqueeTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
@@ -2889,7 +2856,7 @@ Def"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Rantan"
+		<TextView android:text="Rantán"
 			android:id="@+id/tvRantanTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
@@ -3005,7 +2972,7 @@ Def"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Salado"
+		<TextView android:text="Sala'o"
 			android:id="@+id/tvSaladoTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
@@ -3063,7 +3030,7 @@ Def"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Solido"
+		<TextView android:text="Sólido"
 			android:id="@+id/tvSolidoTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
@@ -3092,7 +3059,7 @@ Def"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="TaBien"
+		<TextView android:text="'ta bien"
 			android:id="@+id/tvTaBienTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
@@ -3237,7 +3204,7 @@ Def"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="ValeCebo"
+		<TextView android:text="Vale cebo"
 			android:id="@+id/tvValeCeboTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
@@ -3295,7 +3262,7 @@ Def"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Yeye"
+		<TextView android:text="Yeyé"
 			android:id="@+id/tvYeyeTerm"
 			android:textSize="20sp"
 			android:layout_width="wrap_content"
