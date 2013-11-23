@@ -3,18 +3,23 @@
 package jecw.pty;
 
 import android.app.Activity;
+import android.app.SearchManager;
+import android.content.Context;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.SearchView;
 
 
 public class PanamaDictionary extends Activity implements OnClickListener {
 
-	Button bAhuevao, bAhuevason, bAtorrancia, bAyala, bBate, bBerraco, bBerrinche, bBiencuidao, bBirria, bBochinche, bBotar, bBote, bBrujo, bBuco, bBueno, bBurundanga, bCamaron, bChantin, bChenchen, bChequear, bChicha, bChichi, bChifear, bChilin, bChinguear, bChiva, bChiwi, bCholo, bChombo, bChota, bChotear, bChuleta, bChupar, bChuzo, bCompa, bConflei, bCool, bCoscorron, bCuara, bCulantro, bCulei, bDain, bDatien, bDiabloRojo, bFocop, bFren, bFulo, bFundillo, bGallo, bGarnaton, bGrajo, bGrubear, bGuachiman, bGuacho, bGuaro, bGuial, bHuevear, bJoder, bJuegaVivo, bLaope, bLevante, bLimpio, bLiquipeiper, bLleca, bLoco, bMachoemonte, bMafa, bMaleante, bMan, bManzanillo, bMeValeVerga, bMeña, bMili, bNevera, bNoFitin, bNoMeParece, bOfi, bOmbe, bPaciero, bPalante, bParkin, bParquear, bPatacon, bPatatus, bPay, bPerro, bPeso, bPicando, bPiedrero, bPilar, bPinta, bPlena, bPonchera, bPrakaPraka, bPriti, bQueXopa, bQueloquee, bQuemado, bRakataca, bRantan, bReal, bRilax, bRispect, bSalado, bSarao, bSolido, bTaBien, bTarrantan, bTatai, bTinaco, bVaina, bValeCebo, bViolinista, bYeye;
-	MediaPlayer ahuevao, ahuevason, atorrancia, ayala, bate, berraco, berrinche, biencuidao, birria, bochinche, botar, bote, brujo, buco, bueno, burundanga, camaron, chantin, chenchen, chequear, chicha, chichi, chifear, chilin, chinguear, chiva, chiwi, cholo, chombo, chota, chotear, chuleta, chupar, chuzo, compa, conflei, cool, coscorron, cuara, culantro, culei, dain, datien, diabloRojo, focop, fren, fulo, fundillo, gallo, garnaton, grajo, grubear, guachiman, guacho, guaro, guial, huevear, joder, juegaVivo, laope, levante, limpio, liquipeiper, lleca, loco, machoemonte, mafa, maleante, man, manzanillo, meValeVerga, meña, mili, nevera, noFitin, noMeParece, ofi, ombe, paciero, palante, parkin, parquear, patacon, patatus, pay, perro, peso, picando, piedrero, pilar, pinta, plena, ponchera, prakaPraka, priti, queXopa, queloquee, quemado, rakataca, rantan, real, rilax, rispect, salado, sarao, solido, taBien, tarrantan, tatai, tinaco, vaina, valeCebo, violinista, yeye;
+	Button bAhuevao, bAhuevason, bAtorrancia, bAyala, bBate, bBerraco, bBerrinche, bBiencuidao, bBochinche, bBotar, bBote, bBrujo, bBuco, bBueno, bBurundanga, bCamaron, bChantin, bChenchen, bChequear, bChicha, bChichi, bChifear, bChilin, bChinguear, bChiva, bChiwi, bCholo, bChombo, bChota, bChotear, bChuleta, bChupar, bChuzo, bCompa, bConflei, bCool, bCoscorron, bCuara, bCulantro, bCulei, bDain, bDatien, bDiabloRojo, bFocop, bFren, bFulo, bFundillo, bGallo, bGarnaton, bGrajo, bGrubear, bGuachiman, bGuacho, bGuaro, bGuial, bHuevear, bJoder, bJuegaVivo, bLaope, bLevante, bLimpio, bLiquipeiper, bLleca, bLoco, bMachoemonte, bMafa, bMaleante, bMan, bManzanillo, bMeValeVerga, bMeña, bMili, bNevera, bNoFitin, bNoMeParece, bOfi, bOmbe, bPaciero, bPalante, bParkin, bParquear, bPatacon, bPatatus, bPay, bPerro, bPeso, bPicando, bPiedrero, bPilar, bPinta, bPlena, bPonchera, bPrakaPraka, bPriti, bQueXopa, bQueloquee, bQuemado, bRakataca, bRantan, bReal, bRilax, bRispect, bSalado, bSarao, bSolido, bTaBien, bTarrantan, bTatai, bTinaco, bVaina, bValeCebo, bViolinista, bYeye;
+	MediaPlayer ahuevao, ahuevason, atorrancia, ayala, bate, berraco, berrinche, biencuidao, bochinche, botar, bote, brujo, buco, bueno, burundanga, camaron, chantin, chenchen, chequear, chicha, chichi, chifear, chilin, chinguear, chiva, chiwi, cholo, chombo, chota, chotear, chuleta, chupar, chuzo, compa, conflei, cool, coscorron, cuara, culantro, culei, dain, datien, diabloRojo, focop, fren, fulo, fundillo, gallo, garnaton, grajo, grubear, guachiman, guacho, guaro, guial, huevear, joder, juegaVivo, laope, levante, limpio, liquipeiper, lleca, loco, machoemonte, mafa, maleante, man, manzanillo, meValeVerga, meña, mili, nevera, noFitin, noMeParece, ofi, ombe, paciero, palante, parkin, parquear, patacon, patatus, pay, perro, peso, picando, piedrero, pilar, pinta, plena, ponchera, prakaPraka, priti, queXopa, queloquee, quemado, rakataca, rantan, real, rilax, rispect, salado, sarao, solido, taBien, tarrantan, tatai, tinaco, vaina, valeCebo, violinista, yeye;
 
 	// Called when the activity is first created.
 	@Override
@@ -23,11 +28,11 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 		this.setVolumeControlStream(AudioManager.STREAM_MUSIC);
 		setContentView(R.layout.main);
 
-		bAhuevao = (Button) findViewById(R.id.bAwebaoSound);
+		bAhuevao = (Button) findViewById(R.id.bAhuevaoSound);
 		bAhuevao.setOnClickListener(this);
 		ahuevao = MediaPlayer.create(PanamaDictionary.this, R.raw.ahuevao);
 
-		bAhuevason = (Button) findViewById(R.id.bAwebasonSound);
+		bAhuevason = (Button) findViewById(R.id.bAhuevasonSound);
 		bAhuevason.setOnClickListener(this);
 		ahuevason = MediaPlayer.create(PanamaDictionary.this, R.raw.ahuevason);
 
@@ -55,25 +60,13 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 		bBiencuidao.setOnClickListener(this);
 		biencuidao = MediaPlayer.create(PanamaDictionary.this, R.raw.biencuidao);
 
-		bBirria = (Button) findViewById(R.id.bBirriaSound);
-		bBirria.setOnClickListener(this);
-		birria = MediaPlayer.create(PanamaDictionary.this, R.raw.birria);
-
 		bBochinche = (Button) findViewById(R.id.bBochincheSound);
 		bBochinche.setOnClickListener(this);
 		bochinche = MediaPlayer.create(PanamaDictionary.this, R.raw.bochinche);
 
-		bBotar = (Button) findViewById(R.id.bBotarSound);
-		bBotar.setOnClickListener(this);
-		botar = MediaPlayer.create(PanamaDictionary.this, R.raw.botar);
-
 		bBote = (Button) findViewById(R.id.bBoteSound);
 		bBote.setOnClickListener(this);
 		bote = MediaPlayer.create(PanamaDictionary.this, R.raw.bote);
-
-		bBrujo = (Button) findViewById(R.id.bBrujoSound);
-		bBrujo.setOnClickListener(this);
-		brujo = MediaPlayer.create(PanamaDictionary.this, R.raw.brujo);
 
 		bBuco = (Button) findViewById(R.id.bBucoSound);
 		bBuco.setOnClickListener(this);
@@ -123,10 +116,6 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 		bChinguear.setOnClickListener(this);
 		chinguear = MediaPlayer.create(PanamaDictionary.this, R.raw.chinguear);
 
-		bChiva = (Button) findViewById(R.id.bChivaSound);
-		bChiva.setOnClickListener(this);
-		chiva = MediaPlayer.create(PanamaDictionary.this, R.raw.chiva);
-
 		bChiwi = (Button) findViewById(R.id.bChiwiSound);
 		bChiwi.setOnClickListener(this);
 		chiwi = MediaPlayer.create(PanamaDictionary.this, R.raw.chiwi);
@@ -139,17 +128,9 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 		bChombo.setOnClickListener(this);
 		chombo = MediaPlayer.create(PanamaDictionary.this, R.raw.chombo);
 
-		bChota = (Button) findViewById(R.id.bChotaSound);
-		bChota.setOnClickListener(this);
-		chota = MediaPlayer.create(PanamaDictionary.this, R.raw.chota);
-
 		bChotear = (Button) findViewById(R.id.bChotearSound);
 		bChotear.setOnClickListener(this);
 		chotear = MediaPlayer.create(PanamaDictionary.this, R.raw.chotear);
-
-		bChuleta = (Button) findViewById(R.id.bChuletaSound);
-		bChuleta.setOnClickListener(this);
-		chuleta = MediaPlayer.create(PanamaDictionary.this, R.raw.chuleta);
 
 		bChupar = (Button) findViewById(R.id.bChuparSound);
 		bChupar.setOnClickListener(this);
@@ -169,7 +150,7 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 
 		bCool = (Button) findViewById(R.id.bCoolSound);
 		bCool.setOnClickListener(this);
-		cool = MediaPlayer.create(PanamaDictionary.this, R.raw.cool);
+		cool = MediaPlayer.create(PanamaDictionary.this, R.raw.cul);
 
 		bCoscorron = (Button) findViewById(R.id.bCoscorronSound);
 		bCoscorron.setOnClickListener(this);
@@ -189,7 +170,7 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 
 		bDain = (Button) findViewById(R.id.bDainSound);
 		bDain.setOnClickListener(this);
-		dain = MediaPlayer.create(PanamaDictionary.this, R.raw.dain);
+		dain = MediaPlayer.create(PanamaDictionary.this, R.raw.daim);
 
 		bDatien = (Button) findViewById(R.id.bDatienSound);
 		bDatien.setOnClickListener(this);
@@ -197,15 +178,11 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 
 		bDiabloRojo = (Button) findViewById(R.id.bDiabloRojoSound);
 		bDiabloRojo.setOnClickListener(this);
-		diabloRojo = MediaPlayer.create(PanamaDictionary.this, R.raw.diabloRojo);
+		diabloRojo = MediaPlayer.create(PanamaDictionary.this, R.raw.diablorojo);
 
 		bFocop = (Button) findViewById(R.id.bFocopSound);
 		bFocop.setOnClickListener(this);
 		focop = MediaPlayer.create(PanamaDictionary.this, R.raw.focop);
-
-		bFren = (Button) findViewById(R.id.bFrenSound);
-		bFren.setOnClickListener(this);
-		fren = MediaPlayer.create(PanamaDictionary.this, R.raw.fren);
 
 		bFulo = (Button) findViewById(R.id.bFuloSound);
 		bFulo.setOnClickListener(this);
@@ -226,10 +203,6 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 		bGrajo = (Button) findViewById(R.id.bGrajoSound);
 		bGrajo.setOnClickListener(this);
 		grajo = MediaPlayer.create(PanamaDictionary.this, R.raw.grajo);
-
-		bGrubear = (Button) findViewById(R.id.bGrubearSound);
-		bGrubear.setOnClickListener(this);
-		grubear = MediaPlayer.create(PanamaDictionary.this, R.raw.grubear);
 
 		bGuachiman = (Button) findViewById(R.id.bGuachimanSound);
 		bGuachiman.setOnClickListener(this);
@@ -257,7 +230,7 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 
 		bJuegaVivo = (Button) findViewById(R.id.bJuegaVivoSound);
 		bJuegaVivo.setOnClickListener(this);
-		juegaVivo = MediaPlayer.create(PanamaDictionary.this, R.raw.juegaVivo);
+		juegaVivo = MediaPlayer.create(PanamaDictionary.this, R.raw.juegavivo);
 
 		bLaope = (Button) findViewById(R.id.bLaopeSound);
 		bLaope.setOnClickListener(this);
@@ -282,11 +255,7 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 		bLoco = (Button) findViewById(R.id.bLocoSound);
 		bLoco.setOnClickListener(this);
 		loco = MediaPlayer.create(PanamaDictionary.this, R.raw.loco);
-
-		bMachoemonte = (Button) findViewById(R.id.bMachoemonteSound);
-		bMachoemonte.setOnClickListener(this);
-		machoemonte = MediaPlayer.create(PanamaDictionary.this, R.raw.machoemonte);
-
+		
 		bMafa = (Button) findViewById(R.id.bMafaSound);
 		bMafa.setOnClickListener(this);
 		mafa = MediaPlayer.create(PanamaDictionary.this, R.raw.mafa);
@@ -305,11 +274,11 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 
 		bMeValeVerga = (Button) findViewById(R.id.bMeValeVergaSound);
 		bMeValeVerga.setOnClickListener(this);
-		meValeVerga = MediaPlayer.create(PanamaDictionary.this, R.raw.meValeVerga);
+		meValeVerga = MediaPlayer.create(PanamaDictionary.this, R.raw.mevaleverga);
 
-		bMeña = (Button) findViewById(R.id.bMeñaSound);
+		bMeña = (Button) findViewById(R.id.bMenaSound);
 		bMeña.setOnClickListener(this);
-		meña = MediaPlayer.create(PanamaDictionary.this, R.raw.meña);
+		meña = MediaPlayer.create(PanamaDictionary.this, R.raw.mena);
 
 		bMili = (Button) findViewById(R.id.bMiliSound);
 		bMili.setOnClickListener(this);
@@ -321,19 +290,15 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 
 		bNoFitin = (Button) findViewById(R.id.bNoFitinSound);
 		bNoFitin.setOnClickListener(this);
-		noFitin = MediaPlayer.create(PanamaDictionary.this, R.raw.noFitin);
+		noFitin = MediaPlayer.create(PanamaDictionary.this, R.raw.nofitin);
 
 		bNoMeParece = (Button) findViewById(R.id.bNoMePareceSound);
 		bNoMeParece.setOnClickListener(this);
-		noMeParece = MediaPlayer.create(PanamaDictionary.this, R.raw.noMeParece);
+		noMeParece = MediaPlayer.create(PanamaDictionary.this, R.raw.nomeparece);
 
 		bOfi = (Button) findViewById(R.id.bOfiSound);
 		bOfi.setOnClickListener(this);
 		ofi = MediaPlayer.create(PanamaDictionary.this, R.raw.ofi);
-
-		bOmbe = (Button) findViewById(R.id.bOmbeSound);
-		bOmbe.setOnClickListener(this);
-		ombe = MediaPlayer.create(PanamaDictionary.this, R.raw.ombe);
 
 		bPaciero = (Button) findViewById(R.id.bPacieroSound);
 		bPaciero.setOnClickListener(this);
@@ -349,7 +314,7 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 
 		bParquear = (Button) findViewById(R.id.bParquearSound);
 		bParquear.setOnClickListener(this);
-		parquear = MediaPlayer.create(PanamaDictionary.this, R.raw.parquear);
+		parquear = MediaPlayer.create(PanamaDictionary.this, R.raw.parquiar);
 
 		bPatacon = (Button) findViewById(R.id.bPataconSound);
 		bPatacon.setOnClickListener(this);
@@ -397,7 +362,7 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 
 		bPrakaPraka = (Button) findViewById(R.id.bPrakaPrakaSound);
 		bPrakaPraka.setOnClickListener(this);
-		prakaPraka = MediaPlayer.create(PanamaDictionary.this, R.raw.prakaPraka);
+		prakaPraka = MediaPlayer.create(PanamaDictionary.this, R.raw.praka);
 
 		bPriti = (Button) findViewById(R.id.bPritiSound);
 		bPriti.setOnClickListener(this);
@@ -405,15 +370,15 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 
 		bQueXopa = (Button) findViewById(R.id.bQueXopaSound);
 		bQueXopa.setOnClickListener(this);
-		queXopa = MediaPlayer.create(PanamaDictionary.this, R.raw.queXopa);
+		queXopa = MediaPlayer.create(PanamaDictionary.this, R.raw.quexopa);
 
 		bQueloquee = (Button) findViewById(R.id.bQueloqueeSound);
 		bQueloquee.setOnClickListener(this);
-		queloquee = MediaPlayer.create(PanamaDictionary.this, R.raw.queloquee);
+		queloquee = MediaPlayer.create(PanamaDictionary.this, R.raw.queloque);
 
 		bQuemado = (Button) findViewById(R.id.bQuemadoSound);
 		bQuemado.setOnClickListener(this);
-		quemado = MediaPlayer.create(PanamaDictionary.this, R.raw.quemado);
+		quemado = MediaPlayer.create(PanamaDictionary.this, R.raw.quemao);
 
 		bRakataca = (Button) findViewById(R.id.bRakatacaSound);
 		bRakataca.setOnClickListener(this);
@@ -437,7 +402,7 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 
 		bSalado = (Button) findViewById(R.id.bSaladoSound);
 		bSalado.setOnClickListener(this);
-		salado = MediaPlayer.create(PanamaDictionary.this, R.raw.salado);
+		salado = MediaPlayer.create(PanamaDictionary.this, R.raw.salao);
 
 		bSarao = (Button) findViewById(R.id.bSaraoSound);
 		bSarao.setOnClickListener(this);
@@ -449,7 +414,7 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 
 		bTaBien = (Button) findViewById(R.id.bTaBienSound);
 		bTaBien.setOnClickListener(this);
-		taBien = MediaPlayer.create(PanamaDictionary.this, R.raw.taBien);
+		taBien = MediaPlayer.create(PanamaDictionary.this, R.raw.tabien);
 
 		bTarrantan = (Button) findViewById(R.id.bTarrantanSound);
 		bTarrantan.setOnClickListener(this);
@@ -469,7 +434,7 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 
 		bValeCebo = (Button) findViewById(R.id.bValeCeboSound);
 		bValeCebo.setOnClickListener(this);
-		valeCebo = MediaPlayer.create(PanamaDictionary.this, R.raw.valeCebo);
+		valeCebo = MediaPlayer.create(PanamaDictionary.this, R.raw.valecebo);
 
 		bViolinista = (Button) findViewById(R.id.bViolinistaSound);
 		bViolinista.setOnClickListener(this);
@@ -507,9 +472,6 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 			break;
 		case R.id.bBiencuidaoSound:
 			biencuidao.start();
-			break;
-		case R.id.bBirriaSound:
-			birria.start();
 			break;
 		case R.id.bBochincheSound:
 			bochinche.start();
@@ -570,9 +532,6 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 			break;
 		case R.id.bChomboSound:
 			chombo.start();
-			break;
-		case R.id.bChotaSound:
-			chota.start();
 			break;
 		case R.id.bChotearSound:
 			chotear.start();
@@ -697,7 +656,7 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 		case R.id.bMeValeVergaSound:
 			meValeVerga.start();
 			break;
-		case R.id.bMeñaSound:
+		case R.id.bMenaSound:
 			meña.start();
 			break;
 		case R.id.bMiliSound:
@@ -827,5 +786,21 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 			yeye.start();
 			break;
 		}
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+	    MenuInflater inflater = getMenuInflater();
+	    inflater.inflate(R.menu.cool_menu, menu);
+
+	    // Associate searchable configuration with the SearchView
+	    SearchManager searchManager =
+	           (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+	    SearchView searchView =
+	            (SearchView) menu.findItem(R.id.search).getActionView();
+	    searchView.setSearchableInfo(
+	            searchManager.getSearchableInfo(getComponentName()));
+
+	    return true;
 	}
 }
