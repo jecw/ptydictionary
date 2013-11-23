@@ -53,7 +53,7 @@ int main () {
 	} ifs.close();
 	
 	ofstream output;
-	
+/*	
 	//*************************************beginning of strings.xml************************
 	output.open("strings.xml");
 	/////***print headers
@@ -97,10 +97,10 @@ int main () {
 	}
 	output << "</resources>\n"; 
 	//*************************************end of strings.xml**********************
-	
+	*/
 	
 	//*************************************main.xml
-/*
+
  	output.open("main.xml");
 	//print headers
 	output <<"<?xml version=\"1.0\" encoding=\"utf-8\"?>\n";
@@ -130,7 +130,7 @@ int main () {
 		output << "\t\tandroid:weightSum=\"100\">\n";
 			output << "\t\t<TextView android:text=\"" << word << "\"\n";
 			output << "\t\t\tandroid:id=\"@+id/tv" << word << "Term\"\n";
-			output << "\t\t\tandroid:textSize=\"20sp\"\n";
+			output << "\t\t\tandroid:textSize=\"25sp\"\n";
 			output << "\t\t\tandroid:layout_width=\"wrap_content\"\n";
 			output << "\t\t\tandroid:layout_height=\"wrap_content\"\n";
 			output << "\t\t\tandroid:layout_weight=\"10\"\n";
@@ -141,7 +141,7 @@ int main () {
 			
 			output << "\t\t<Button android:layout_height=\"fill_parent\"\n";
 			output << "\t\t\tandroid:id=\"@+id/b" << word << "Sound\"\n";
-			output << "\t\t\tandroid:layout_width=\"wrap_content\"\n";
+			output << "\t\t\tandroid:layout_width=\"22dp\"\n";
 			output << "\t\t\tandroid:background=\"@drawable/custom\"\n";
 			output << "\t\t\tandroid:typeface=\"serif\" >\n";
 			output << "\t\t</Button>\n";
@@ -157,7 +157,7 @@ int main () {
 	//last LinearLayout
 	output <<"\t</LinearLayout>\n";
 	output << "</ScrollView>";
-*/
+
 	//*************************************end of main.xml**********************
 	output.close();
 	return 0;
