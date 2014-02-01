@@ -1,15 +1,20 @@
 package jecw.pty;
 
-import android.app.Activity;
+import android.app.ListActivity;
 import android.app.SearchManager;
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.TextView;
+import android.widget.Toast;
 
-public class SearchResultsActivity extends Activity {
+public class SearchResultsActivity extends ListActivity {
+	
+	
 	@Override
     public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		//setIntent(newIntent);
+		
         handleIntent(getIntent());
     }
 
@@ -34,7 +39,8 @@ public class SearchResultsActivity extends Activity {
 	private void doSearch(String queryStr) { 
    // get a Cursor, prepare the ListAdapter
    // and set it
-		onSearchRequested();
+		//onSearchRequested();
+		Toast.makeText(this, R.string.app_name, Toast.LENGTH_SHORT);
    }
 /*
 	private void onSearchRequested()

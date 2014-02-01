@@ -14,19 +14,20 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Ahuevao"
-			android:id="@+id/tvAhuevaoTerm"
-			android:textSize="25sp"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:layout_weight="10"
-			android:typeface="serif"
-			android:textStyle="bold"
-			android:textColor="#ffffff" >
+		<TextView
+		    android:id="@+id/tvAhuevaoTerm"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="10"
+		    android:text="Ahuevao"
+		    android:textColor="#ffffff"
+		    android:textSize="23sp"
+		    android:textStyle="bold"
+		    android:typeface="serif" >
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bAhuevaoSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -43,9 +44,9 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Ahuevason"
+		<TextView android:text="Ahuevasón"
 			android:id="@+id/tvAhuevasonTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -55,7 +56,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bAhuevasonSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -74,7 +75,7 @@
 		android:weightSum="100">
 		<TextView android:text="Atorrancia"
 			android:id="@+id/tvAtorranciaTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -84,7 +85,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bAtorranciaSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -101,9 +102,9 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Ayala"
+		<TextView android:text="Áyala"
 			android:id="@+id/tvAyalaTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -113,7 +114,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bAyalaSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -121,7 +122,7 @@
 	<TextView android:layout_height="wrap_content"
 		android:id="@+id/tvAyalaDef"
 		android:layout_width="fill_parent"
-		android:text="(Interjec.) Manera de expresar sorpresa o enojo. También se pronuncia 'áshala'. Comúnmente dicho con otras palabras. Ejemplo: 'Áyala peste', 'áyala maquina', 'ayala vida'.
+		android:text="(Interjec.) Manera de expresar sorpresa o enojo. También se pronuncia 'áshala'. Comúnmente dicho con otras palabras. Ejemplo: 'Áyala peste', 'áyala máquina', 'áyala vida'.
 ">
 	</TextView>
 
@@ -132,7 +133,7 @@
 		android:weightSum="100">
 		<TextView android:text="Bate"
 			android:id="@+id/tvBateTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -142,7 +143,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bBateSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -161,7 +162,7 @@
 		android:weightSum="100">
 		<TextView android:text="Berraco"
 			android:id="@+id/tvBerracoTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -171,7 +172,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bBerracoSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -190,7 +191,7 @@
 		android:weightSum="100">
 		<TextView android:text="Berrinche"
 			android:id="@+id/tvBerrincheTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -200,7 +201,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bBerrincheSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -217,9 +218,9 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Biencuidao"
+		<TextView android:text="Biencuida'o"
 			android:id="@+id/tvBiencuidaoTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -229,7 +230,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bBiencuidaoSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -248,7 +249,7 @@
 		android:weightSum="100">
 		<TextView android:text="Birria"
 			android:id="@+id/tvBirriaTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -258,7 +259,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bBirriaSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -277,7 +278,7 @@
 		android:weightSum="100">
 		<TextView android:text="Bochinche"
 			android:id="@+id/tvBochincheTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -287,7 +288,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bBochincheSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -306,7 +307,7 @@
 		android:weightSum="100">
 		<TextView android:text="Botar"
 			android:id="@+id/tvBotarTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -316,7 +317,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bBotarSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -335,7 +336,7 @@
 		android:weightSum="100">
 		<TextView android:text="Bote"
 			android:id="@+id/tvBoteTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -345,7 +346,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bBoteSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -364,7 +365,7 @@
 		android:weightSum="100">
 		<TextView android:text="Brujo"
 			android:id="@+id/tvBrujoTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -374,7 +375,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bBrujoSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -393,7 +394,7 @@
 		android:weightSum="100">
 		<TextView android:text="Buco"
 			android:id="@+id/tvBucoTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -403,7 +404,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bBucoSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -422,7 +423,7 @@
 		android:weightSum="100">
 		<TextView android:text="Bueno"
 			android:id="@+id/tvBuenoTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -432,7 +433,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bBuenoSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -451,7 +452,7 @@
 		android:weightSum="100">
 		<TextView android:text="Burundanga"
 			android:id="@+id/tvBurundangaTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -461,7 +462,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bBurundangaSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -478,9 +479,9 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Camaron"
+		<TextView android:text="Camarón"
 			android:id="@+id/tvCamaronTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -490,7 +491,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bCamaronSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -509,7 +510,7 @@
 		android:weightSum="100">
 		<TextView android:text="Chantin"
 			android:id="@+id/tvChantinTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -519,7 +520,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bChantinSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -538,7 +539,7 @@
 		android:weightSum="100">
 		<TextView android:text="Chenchen"
 			android:id="@+id/tvChenchenTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -548,7 +549,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bChenchenSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -567,7 +568,7 @@
 		android:weightSum="100">
 		<TextView android:text="Chequear"
 			android:id="@+id/tvChequearTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -577,7 +578,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bChequearSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -596,7 +597,7 @@
 		android:weightSum="100">
 		<TextView android:text="Chicha"
 			android:id="@+id/tvChichaTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -606,7 +607,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bChichaSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -623,9 +624,9 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Chichi"
+		<TextView android:text="Chichí"
 			android:id="@+id/tvChichiTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -635,7 +636,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bChichiSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -654,7 +655,7 @@
 		android:weightSum="100">
 		<TextView android:text="Chifear"
 			android:id="@+id/tvChifearTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -664,7 +665,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bChifearSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -683,7 +684,7 @@
 		android:weightSum="100">
 		<TextView android:text="Chilin"
 			android:id="@+id/tvChilinTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -693,7 +694,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bChilinSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -712,7 +713,7 @@
 		android:weightSum="100">
 		<TextView android:text="Chinguear"
 			android:id="@+id/tvChinguearTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -722,7 +723,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bChinguearSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -741,7 +742,7 @@
 		android:weightSum="100">
 		<TextView android:text="Chiva"
 			android:id="@+id/tvChivaTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -751,7 +752,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bChivaSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -770,7 +771,7 @@
 		android:weightSum="100">
 		<TextView android:text="Chiwi"
 			android:id="@+id/tvChiwiTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -780,7 +781,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bChiwiSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -799,7 +800,7 @@
 		android:weightSum="100">
 		<TextView android:text="Cholo"
 			android:id="@+id/tvCholoTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -809,7 +810,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bCholoSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -828,7 +829,7 @@
 		android:weightSum="100">
 		<TextView android:text="Chombo"
 			android:id="@+id/tvChomboTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -838,7 +839,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bChomboSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -857,7 +858,7 @@
 		android:weightSum="100">
 		<TextView android:text="Chotear"
 			android:id="@+id/tvChotearTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -867,7 +868,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bChotearSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -886,7 +887,7 @@
 		android:weightSum="100">
 		<TextView android:text="Chuleta"
 			android:id="@+id/tvChuletaTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -896,7 +897,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bChuletaSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -915,7 +916,7 @@
 		android:weightSum="100">
 		<TextView android:text="Chupar"
 			android:id="@+id/tvChuparTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -925,7 +926,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bChuparSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -944,7 +945,7 @@
 		android:weightSum="100">
 		<TextView android:text="Chuzo"
 			android:id="@+id/tvChuzoTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -954,7 +955,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bChuzoSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -973,7 +974,7 @@
 		android:weightSum="100">
 		<TextView android:text="Compa"
 			android:id="@+id/tvCompaTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -983,7 +984,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bCompaSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1002,7 +1003,7 @@
 		android:weightSum="100">
 		<TextView android:text="Conflei"
 			android:id="@+id/tvConfleiTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1012,7 +1013,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bConfleiSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1031,7 +1032,7 @@
 		android:weightSum="100">
 		<TextView android:text="Cool"
 			android:id="@+id/tvCoolTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1041,7 +1042,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bCoolSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1058,9 +1059,9 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Coscorron"
+		<TextView android:text="Coscorrón"
 			android:id="@+id/tvCoscorronTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1070,7 +1071,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bCoscorronSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1089,7 +1090,7 @@
 		android:weightSum="100">
 		<TextView android:text="Cuara"
 			android:id="@+id/tvCuaraTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1099,7 +1100,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bCuaraSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1118,7 +1119,7 @@
 		android:weightSum="100">
 		<TextView android:text="Culantro"
 			android:id="@+id/tvCulantroTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1128,7 +1129,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bCulantroSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1147,7 +1148,7 @@
 		android:weightSum="100">
 		<TextView android:text="Culei"
 			android:id="@+id/tvCuleiTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1157,7 +1158,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bCuleiSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1176,7 +1177,7 @@
 		android:weightSum="100">
 		<TextView android:text="Dain"
 			android:id="@+id/tvDainTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1186,7 +1187,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bDainSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1205,7 +1206,7 @@
 		android:weightSum="100">
 		<TextView android:text="Datien"
 			android:id="@+id/tvDatienTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1215,7 +1216,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bDatienSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1232,9 +1233,9 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="DiabloRojo"
+		<TextView android:text="Diablo Rojo"
 			android:id="@+id/tvDiabloRojoTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1244,7 +1245,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bDiabloRojoSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1263,7 +1264,7 @@
 		android:weightSum="100">
 		<TextView android:text="Focop"
 			android:id="@+id/tvFocopTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1273,7 +1274,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bFocopSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1292,7 +1293,7 @@
 		android:weightSum="100">
 		<TextView android:text="Fren"
 			android:id="@+id/tvFrenTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1302,7 +1303,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bFrenSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1321,7 +1322,7 @@
 		android:weightSum="100">
 		<TextView android:text="Fulo"
 			android:id="@+id/tvFuloTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1331,7 +1332,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bFuloSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1350,7 +1351,7 @@
 		android:weightSum="100">
 		<TextView android:text="Fundillo"
 			android:id="@+id/tvFundilloTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1360,7 +1361,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bFundilloSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1379,7 +1380,7 @@
 		android:weightSum="100">
 		<TextView android:text="Gallo"
 			android:id="@+id/tvGalloTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1389,7 +1390,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bGalloSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1406,9 +1407,9 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Garnaton"
+		<TextView android:text="Garnatón"
 			android:id="@+id/tvGarnatonTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1418,7 +1419,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bGarnatonSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1437,7 +1438,7 @@
 		android:weightSum="100">
 		<TextView android:text="Grajo"
 			android:id="@+id/tvGrajoTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1447,7 +1448,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bGrajoSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1466,7 +1467,7 @@
 		android:weightSum="100">
 		<TextView android:text="Grubear"
 			android:id="@+id/tvGrubearTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1476,7 +1477,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bGrubearSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1495,7 +1496,7 @@
 		android:weightSum="100">
 		<TextView android:text="Guachiman"
 			android:id="@+id/tvGuachimanTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1505,7 +1506,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bGuachimanSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1524,7 +1525,7 @@
 		android:weightSum="100">
 		<TextView android:text="Guacho"
 			android:id="@+id/tvGuachoTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1534,7 +1535,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bGuachoSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1542,7 +1543,7 @@
 	<TextView android:layout_height="wrap_content"
 		android:id="@+id/tvGuachoDef"
 		android:layout_width="fill_parent"
-		android:text=". (Sust.) Sopa espesa que lleva ñame, yuca, culantro, arroz, verduras y alguna carne, que puede ser res, rabito de puerco o chicharrón. El guacho se sirve tradicionalmente en una 'totuma', plato que se fabrica partiendo a la mitad unos frutos redondos y duros que crecen en el monte. 2. (Sust.) La combinacion de varias cosas.
+		android:text="1. (Sust.) Sopa espesa que lleva ñame, yuca, culantro, arroz, verduras y alguna carne, que puede ser res, rabito de puerco o chicharrón. El guacho se sirve tradicionalmente en una 'totuma', plato que se fabrica partiendo a la mitad unos frutos redondos y duros que crecen en el monte. 2. (Sust.) La combinacion de varias cosas.
 ">
 	</TextView>
 
@@ -1553,7 +1554,7 @@
 		android:weightSum="100">
 		<TextView android:text="Guaro"
 			android:id="@+id/tvGuaroTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1563,7 +1564,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bGuaroSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1582,7 +1583,7 @@
 		android:weightSum="100">
 		<TextView android:text="Guial"
 			android:id="@+id/tvGuialTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1592,7 +1593,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bGuialSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1611,7 +1612,7 @@
 		android:weightSum="100">
 		<TextView android:text="Huevear"
 			android:id="@+id/tvHuevearTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1621,7 +1622,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bHuevearSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1640,7 +1641,7 @@
 		android:weightSum="100">
 		<TextView android:text="Joder"
 			android:id="@+id/tvJoderTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1650,7 +1651,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bJoderSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1667,9 +1668,9 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="JuegaVivo"
+		<TextView android:text="Juega Vivo"
 			android:id="@+id/tvJuegaVivoTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1679,7 +1680,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bJuegaVivoSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1698,7 +1699,7 @@
 		android:weightSum="100">
 		<TextView android:text="Laope"
 			android:id="@+id/tvLaopeTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1708,7 +1709,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bLaopeSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1727,7 +1728,7 @@
 		android:weightSum="100">
 		<TextView android:text="Levante"
 			android:id="@+id/tvLevanteTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1737,7 +1738,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bLevanteSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1756,7 +1757,7 @@
 		android:weightSum="100">
 		<TextView android:text="Limpio"
 			android:id="@+id/tvLimpioTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1766,7 +1767,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bLimpioSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1785,7 +1786,7 @@
 		android:weightSum="100">
 		<TextView android:text="Liquipeiper"
 			android:id="@+id/tvLiquipeiperTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1795,7 +1796,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bLiquipeiperSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1814,7 +1815,7 @@
 		android:weightSum="100">
 		<TextView android:text="Lleca"
 			android:id="@+id/tvLlecaTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1824,7 +1825,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bLlecaSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1843,7 +1844,7 @@
 		android:weightSum="100">
 		<TextView android:text="Loco"
 			android:id="@+id/tvLocoTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1853,7 +1854,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bLocoSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1872,7 +1873,7 @@
 		android:weightSum="100">
 		<TextView android:text="Machoemonte"
 			android:id="@+id/tvMachoemonteTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1882,7 +1883,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bMachoemonteSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1899,9 +1900,9 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Mafa"
+		<TextView android:text="Mafá"
 			android:id="@+id/tvMafaTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1911,7 +1912,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bMafaSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1930,7 +1931,7 @@
 		android:weightSum="100">
 		<TextView android:text="Maleante"
 			android:id="@+id/tvMaleanteTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1940,7 +1941,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bMaleanteSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1959,7 +1960,7 @@
 		android:weightSum="100">
 		<TextView android:text="Man"
 			android:id="@+id/tvManTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1969,7 +1970,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bManSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -1988,7 +1989,7 @@
 		android:weightSum="100">
 		<TextView android:text="Manzanillo"
 			android:id="@+id/tvManzanilloTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -1998,7 +1999,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bManzanilloSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2015,9 +2016,9 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="MeValeVerga"
+		<TextView android:text="Me vale verga"
 			android:id="@+id/tvMeValeVergaTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2027,7 +2028,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bMeValeVergaSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2046,7 +2047,7 @@
 		android:weightSum="100">
 		<TextView android:text="Meña"
 			android:id="@+id/tvMenaTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2056,7 +2057,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bMenaSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2075,7 +2076,7 @@
 		android:weightSum="100">
 		<TextView android:text="Mili"
 			android:id="@+id/tvMiliTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2085,7 +2086,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bMiliSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2104,7 +2105,7 @@
 		android:weightSum="100">
 		<TextView android:text="Nevera"
 			android:id="@+id/tvNeveraTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2114,7 +2115,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bNeveraSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2131,9 +2132,9 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="NoFitin"
+		<TextView android:text="No fitin"
 			android:id="@+id/tvNoFitinTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2143,7 +2144,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bNoFitinSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2160,9 +2161,9 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="NoMeParece"
+		<TextView android:text="No me parece"
 			android:id="@+id/tvNoMePareceTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2172,7 +2173,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bNoMePareceSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2191,7 +2192,7 @@
 		android:weightSum="100">
 		<TextView android:text="Ofi"
 			android:id="@+id/tvOfiTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2201,7 +2202,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bOfiSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2220,7 +2221,7 @@
 		android:weightSum="100">
 		<TextView android:text="Ombe"
 			android:id="@+id/tvOmbeTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2230,7 +2231,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bOmbeSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2249,7 +2250,7 @@
 		android:weightSum="100">
 		<TextView android:text="Paciero"
 			android:id="@+id/tvPacieroTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2259,7 +2260,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bPacieroSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2278,7 +2279,7 @@
 		android:weightSum="100">
 		<TextView android:text="Palante"
 			android:id="@+id/tvPalanteTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2288,7 +2289,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bPalanteSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2307,7 +2308,7 @@
 		android:weightSum="100">
 		<TextView android:text="Parkin"
 			android:id="@+id/tvParkinTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2317,7 +2318,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bParkinSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2336,7 +2337,7 @@
 		android:weightSum="100">
 		<TextView android:text="Parquear"
 			android:id="@+id/tvParquearTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2346,7 +2347,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bParquearSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2363,9 +2364,9 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Patacon"
+		<TextView android:text="Patacón"
 			android:id="@+id/tvPataconTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2375,7 +2376,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bPataconSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2392,9 +2393,9 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Patatus"
+		<TextView android:text="Patatús"
 			android:id="@+id/tvPatatusTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2404,7 +2405,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bPatatusSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2423,7 +2424,7 @@
 		android:weightSum="100">
 		<TextView android:text="Pay"
 			android:id="@+id/tvPayTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2433,7 +2434,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bPaySound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2452,7 +2453,7 @@
 		android:weightSum="100">
 		<TextView android:text="Perro"
 			android:id="@+id/tvPerroTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2462,7 +2463,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bPerroSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2481,7 +2482,7 @@
 		android:weightSum="100">
 		<TextView android:text="Peso"
 			android:id="@+id/tvPesoTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2491,7 +2492,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bPesoSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2510,7 +2511,7 @@
 		android:weightSum="100">
 		<TextView android:text="Picando"
 			android:id="@+id/tvPicandoTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2520,7 +2521,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bPicandoSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2539,7 +2540,7 @@
 		android:weightSum="100">
 		<TextView android:text="Piedrero"
 			android:id="@+id/tvPiedreroTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2549,7 +2550,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bPiedreroSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2568,7 +2569,7 @@
 		android:weightSum="100">
 		<TextView android:text="Pilar"
 			android:id="@+id/tvPilarTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2578,7 +2579,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bPilarSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2597,7 +2598,7 @@
 		android:weightSum="100">
 		<TextView android:text="Pinta"
 			android:id="@+id/tvPintaTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2607,7 +2608,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bPintaSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2626,7 +2627,7 @@
 		android:weightSum="100">
 		<TextView android:text="Plena"
 			android:id="@+id/tvPlenaTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2636,7 +2637,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bPlenaSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2655,7 +2656,7 @@
 		android:weightSum="100">
 		<TextView android:text="Ponchera"
 			android:id="@+id/tvPoncheraTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2665,7 +2666,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bPoncheraSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2682,9 +2683,9 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="PrakaPraka"
+		<TextView android:text="Praka praka"
 			android:id="@+id/tvPrakaPrakaTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2694,7 +2695,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bPrakaPrakaSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2713,7 +2714,7 @@
 		android:weightSum="100">
 		<TextView android:text="Priti"
 			android:id="@+id/tvPritiTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2723,7 +2724,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bPritiSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2740,9 +2741,9 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="QueXopa"
+		<TextView android:text="Qué xopa"
 			android:id="@+id/tvQueXopaTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2752,7 +2753,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bQueXopaSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2769,9 +2770,9 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Queloquee"
+		<TextView android:text="Que lo que e'"
 			android:id="@+id/tvQueloqueeTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2781,7 +2782,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bQueloqueeSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2800,7 +2801,7 @@
 		android:weightSum="100">
 		<TextView android:text="Quemado"
 			android:id="@+id/tvQuemadoTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2810,7 +2811,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bQuemadoSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2829,7 +2830,7 @@
 		android:weightSum="100">
 		<TextView android:text="Rakataca"
 			android:id="@+id/tvRakatacaTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2839,7 +2840,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bRakatacaSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2858,7 +2859,7 @@
 		android:weightSum="100">
 		<TextView android:text="Rantan"
 			android:id="@+id/tvRantanTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2868,7 +2869,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bRantanSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2887,7 +2888,7 @@
 		android:weightSum="100">
 		<TextView android:text="Real"
 			android:id="@+id/tvRealTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2897,7 +2898,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bRealSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2916,7 +2917,7 @@
 		android:weightSum="100">
 		<TextView android:text="Rilax"
 			android:id="@+id/tvRilaxTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2926,7 +2927,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bRilaxSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2945,7 +2946,7 @@
 		android:weightSum="100">
 		<TextView android:text="Rispect"
 			android:id="@+id/tvRispectTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2955,7 +2956,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bRispectSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -2972,9 +2973,9 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Salado"
+		<TextView android:text="Sala'o"
 			android:id="@+id/tvSaladoTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -2984,7 +2985,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bSaladoSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -3003,7 +3004,7 @@
 		android:weightSum="100">
 		<TextView android:text="Sarao"
 			android:id="@+id/tvSaraoTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -3013,7 +3014,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bSaraoSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -3030,9 +3031,9 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Solido"
+		<TextView android:text="Sólido"
 			android:id="@+id/tvSolidoTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -3042,7 +3043,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bSolidoSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -3059,9 +3060,9 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="TaBien"
+		<TextView android:text="'ta bien"
 			android:id="@+id/tvTaBienTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -3071,7 +3072,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bTaBienSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -3090,7 +3091,7 @@
 		android:weightSum="100">
 		<TextView android:text="Tarrantan"
 			android:id="@+id/tvTarrantanTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -3100,7 +3101,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bTarrantanSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -3119,7 +3120,7 @@
 		android:weightSum="100">
 		<TextView android:text="Tatai"
 			android:id="@+id/tvTataiTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -3129,7 +3130,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bTataiSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -3148,7 +3149,7 @@
 		android:weightSum="100">
 		<TextView android:text="Tinaco"
 			android:id="@+id/tvTinacoTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -3158,7 +3159,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bTinacoSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -3177,7 +3178,7 @@
 		android:weightSum="100">
 		<TextView android:text="Vaina"
 			android:id="@+id/tvVainaTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -3187,7 +3188,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bVainaSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -3204,9 +3205,9 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="ValeCebo"
+		<TextView android:text="Vale cebo"
 			android:id="@+id/tvValeCeboTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -3216,7 +3217,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bValeCeboSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -3235,7 +3236,7 @@
 		android:weightSum="100">
 		<TextView android:text="Violinista"
 			android:id="@+id/tvViolinistaTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -3245,7 +3246,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bViolinistaSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>
@@ -3262,9 +3263,9 @@
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="100">
-		<TextView android:text="Yeye"
+		<TextView android:text="Yeyé"
 			android:id="@+id/tvYeyeTerm"
-			android:textSize="25sp"
+			android:textSize="23sp"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_weight="10"
@@ -3274,7 +3275,7 @@
 		</TextView>
 		<Button android:layout_height="fill_parent"
 			android:id="@+id/bYeyeSound"
-			android:layout_width="22dp"
+			android:layout_width="23dp"
 			android:background="@drawable/custom"
 			android:typeface="serif" >
 		</Button>

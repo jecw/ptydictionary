@@ -13,14 +13,16 @@ import android.view.MenuInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.SearchView;
-
 
 public class PanamaDictionary extends Activity implements OnClickListener {
 
 	Button bAhuevao, bAhuevason, bAtorrancia, bAyala, bBate, bBerraco, bBerrinche, bBiencuidao, bBochinche, bBotar, bBote, bBrujo, bBuco, bBueno, bBurundanga, bCamaron, bChantin, bChenchen, bChequear, bChicha, bChichi, bChifear, bChilin, bChinguear, bChiva, bChiwi, bCholo, bChombo, bChota, bChotear, bChuleta, bChupar, bChuzo, bCompa, bConflei, bCool, bCoscorron, bCuara, bCulantro, bCulei, bDain, bDatien, bDiabloRojo, bFocop, bFren, bFulo, bFundillo, bGallo, bGarnaton, bGrajo, bGrubear, bGuachiman, bGuacho, bGuaro, bGuial, bHuevear, bJoder, bJuegaVivo, bLaope, bLevante, bLimpio, bLiquipeiper, bLleca, bLoco, bMachoemonte, bMafa, bMaleante, bMan, bManzanillo, bMeValeVerga, bMeña, bMili, bNevera, bNoFitin, bNoMeParece, bOfi, bOmbe, bPaciero, bPalante, bParkin, bParquear, bPatacon, bPatatus, bPay, bPerro, bPeso, bPicando, bPiedrero, bPilar, bPinta, bPlena, bPonchera, bPrakaPraka, bPriti, bQueXopa, bQueloquee, bQuemado, bRakataca, bRantan, bReal, bRilax, bRispect, bSalado, bSarao, bSolido, bTaBien, bTarrantan, bTatai, bTinaco, bVaina, bValeCebo, bViolinista, bYeye;
 	MediaPlayer ahuevao, ahuevason, atorrancia, ayala, bate, berraco, berrinche, biencuidao, bochinche, botar, bote, brujo, buco, bueno, burundanga, camaron, chantin, chenchen, chequear, chicha, chichi, chifear, chilin, chinguear, chiva, chiwi, cholo, chombo, chota, chotear, chuleta, chupar, chuzo, compa, conflei, cool, coscorron, cuara, culantro, culei, dain, datien, diabloRojo, focop, fren, fulo, fundillo, gallo, garnaton, grajo, grubear, guachiman, guacho, guaro, guial, huevear, joder, juegaVivo, laope, levante, limpio, liquipeiper, lleca, loco, machoemonte, mafa, maleante, man, manzanillo, meValeVerga, meña, mili, nevera, noFitin, noMeParece, ofi, ombe, paciero, palante, parkin, parquear, patacon, patatus, pay, perro, peso, picando, piedrero, pilar, pinta, plena, ponchera, prakaPraka, priti, queXopa, queloquee, quemado, rakataca, rantan, real, rilax, rispect, salado, sarao, solido, taBien, tarrantan, tatai, tinaco, vaina, valeCebo, violinista, yeye;
-
+	ListView list;
+	ListViewAdapter adapter;
+	
 	// Called when the activity is first created.
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -800,6 +802,7 @@ public class PanamaDictionary extends Activity implements OnClickListener {
 	            (SearchView) menu.findItem(R.id.search).getActionView();
 	    searchView.setSearchableInfo(
 	            searchManager.getSearchableInfo(getComponentName()));
+	    searchView.setIconifiedByDefault(false);
 
 	    return true;
 	}

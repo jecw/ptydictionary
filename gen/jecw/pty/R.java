@@ -12,9 +12,14 @@ public final class R {
     }
     public static final class drawable {
         public static final int custom=0x7f020000;
-        public static final int icon=0x7f020001;
-        public static final int nosound=0x7f020002;
-        public static final int sound=0x7f020003;
+        public static final int ic_launcher=0x7f020001;
+        public static final int icon=0x7f020002;
+        public static final int nosound=0x7f020003;
+        public static final int sound=0x7f020004;
+        public static final int sound2=0x7f020005;
+        public static final int sound3=0x7f020006;
+        public static final int sound_original=0x7f020007;
+        public static final int splash=0x7f020008;
     }
     public static final class id {
         public static final int aboutUs=0x7f080156;
@@ -363,6 +368,8 @@ public final class R {
     }
     public static final class layout {
         public static final int main=0x7f030000;
+        public static final int search_activity_layout=0x7f030001;
+        public static final int splash=0x7f030002;
     }
     public static final class menu {
         public static final int cool_menu=0x7f070000;

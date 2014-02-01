@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PanamaDictionary</string>
-    <string name="search_title">Search</string>
-    <string name="search_hint">Busca una palabra aquí.</string>
+    <string name="app_name">Chiwi</string>
+    <string name="search_title">Buscar</string>
+    <string name="search_hint">Busca una palabra o definición.</string>
 	<string name="ahuevao">(Adj.) Huevón, lento, imbécil.</string>
 	<string name="ahuevason">(Sust.) Tontería, idiotez.</string>
 	<string name="atorrancia">1. (Sust.) Vagancia, pereza. 2. (Sust.) Frase o acción que no tiene sentido.</string>
