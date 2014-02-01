@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
   
@@ -16,3 +17,25 @@
           android:alphabeticShortcut="a"
     />
 </menu>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item 
+    android:title="About Us"
+    android:id="@+id/aboutUs"
+    android:numericShortcut="1"
+    android:alphabeticShortcut="a"
+    />
+    <item 
+    android:title="Preferences"
+    android:id="@+id/preferences"
+    />
+    <item 
+    android:title="Exit"
+    android:id="@+id/exit"
+    />
+    
+</menu>
+>>>>>>> 4c5cab5ee51c49e622d1b4b09bb8e063028d9fd1

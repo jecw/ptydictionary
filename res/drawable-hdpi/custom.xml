@@ -2,7 +2,13 @@
 <selector
   xmlns:android="http://schemas.android.com/apk/res/android">
     
+<<<<<<< HEAD
    
     <item android:drawable="@drawable/sound"></item>
+=======
+    <item android:state_pressed="true" android:drawable="@drawable/plusselected"></item>
+    <item android:state_focused="true" android:drawable="@drawable/plushighlight"></item>
+    <item android:drawable="@drawable/plus"></item>
+>>>>>>> 4c5cab5ee51c49e622d1b4b09bb8e063028d9fd1
     
 </selector>

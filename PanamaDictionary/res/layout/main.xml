@@ -1,0 +1,3291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scrollView1"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Ahuevao"
+			android:id="@+id/tvAhuevaoTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bAhuevaoSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvAhuevaoDef"
+		android:layout_width="fill_parent"
+		android:text="(Adj.) Huevón, lento, imbécil.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Ahuevasón"
+			android:id="@+id/tvAhuevasonTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bAhuevasonSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvAhuevasonDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Tontería, idiotez.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Atorrancia"
+			android:id="@+id/tvAtorranciaTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bAtorranciaSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvAtorranciaDef"
+		android:layout_width="fill_parent"
+		android:text="1. (Sust.) Vagancia, pereza. 2. (Sust.) Frase o acción que no tiene sentido.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Áyala"
+			android:id="@+id/tvAyalaTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bAyalaSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvAyalaDef"
+		android:layout_width="fill_parent"
+		android:text="(Interjec.) Manera de expresar sorpresa o enojo. También se pronuncia 'áshala'. Comúnmente dicho con otras palabras. Ejemplo: 'Áyala peste', 'áyala máquina', 'áyala vida'.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Bate"
+			android:id="@+id/tvBateTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bBateSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvBateDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Algo ficticio, asombroso o espectacular, una exageración. Ejemplo: ¡Qué bate!
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Berraco"
+			android:id="@+id/tvBerracoTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bBerracoSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvBerracoDef"
+		android:layout_width="fill_parent"
+		android:text="1. (Sust.) Persona hábil. 2. (Adj.) Furioso; difícil.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Berrinche"
+			android:id="@+id/tvBerrincheTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bBerrincheSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvBerrincheDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Armar un escándalo o necedad. Ejemplo:  Ese niño tiene un berrinche. 2. (Sust.) Olor fuerte a orine. Ejemplo:  Este baño huele a berrinche.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Biencuida'o"
+			android:id="@+id/tvBiencuidaoTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bBiencuidaoSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvBiencuidaoDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Individuo que se gana la vida cuidando autos y consiguiendo estacionamientos en lugares como centros comerciales, discotecas, cines, almacenes.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Birria"
+			android:id="@+id/tvBirriaTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bBirriaSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvBirriaDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Juego muy repetitivo sin espíritu de competencia o finalidad alguna, comúnmente usado para los videojuegos, fútbol o baloncesto.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Bochinche"
+			android:id="@+id/tvBochincheTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bBochincheSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvBochincheDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Chisme.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Botar"
+			android:id="@+id/tvBotarTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bBotarSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvBotarDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Decir una atorrancia. Ejemplo: ¡Vaya, Pepito la botó!
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Bote"
+			android:id="@+id/tvBoteTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bBoteSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvBoteDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Pedido para dar un aventón a algún lugar. Ejempo: Ey, un bote pue'.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Brujo"
+			android:id="@+id/tvBrujoTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bBrujoSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvBrujoDef"
+		android:layout_width="fill_parent"
+		android:text="(Adj.) Barato, de poca calidad.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Buco"
+			android:id="@+id/tvBucoTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bBucoSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvBucoDef"
+		android:layout_width="fill_parent"
+		android:text="(Adv.) Mucho. Ejemplo: Hay buco de comer.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Bueno"
+			android:id="@+id/tvBuenoTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bBuenoSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvBuenoDef"
+		android:layout_width="fill_parent"
+		android:text="(Adj.) Que está muy bonita y/o tiene buen fisico. Ejemplo:  Mami 'tas buena.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Burundanga"
+			android:id="@+id/tvBurundangaTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bBurundangaSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvBurundangaDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Alimento de poco valor nutritivo como caramelos, chocolates, chicles, etc.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Camarón"
+			android:id="@+id/tvCamaronTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bCamaronSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvCamaronDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Actividad extracurricular que permite a un individuo ganar dinero extra. Su origen se remonta a los tiempos en que los gringos le decían a los locales 'Come around...' (pásate por aquí). Ejemplo:  Voy a hacer un camarón.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Chantin"
+			android:id="@+id/tvChantinTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bChantinSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvChantinDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Casa, hogar.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Chenchen"
+			android:id="@+id/tvChenchenTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bChenchenSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvChenchenDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Dinero.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Chequear"
+			android:id="@+id/tvChequearTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bChequearSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvChequearDef"
+		android:layout_width="fill_parent"
+		android:text="(Verb.) Revisar
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Chicha"
+			android:id="@+id/tvChichaTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bChichaSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvChichaDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Refresco o bebida fermentada.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Chichí"
+			android:id="@+id/tvChichiTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bChichiSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvChichiDef"
+		android:layout_width="fill_parent"
+		android:text="1. (Sust.) Forma cariñosa de decir bebé. 2. (Sust.) Forma cariñosa de decirle a la novia o al novio.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Chifear"
+			android:id="@+id/tvChifearTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bChifearSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvChifearDef"
+		android:layout_width="fill_parent"
+		android:text="(Verb.) No invitar/ignorar a alguna persona.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Chilin"
+			android:id="@+id/tvChilinTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bChilinSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvChilinDef"
+		android:layout_width="fill_parent"
+		android:text="1. (Adj.) Tranquilo. 2. (Verb.) Parkear cool. Ejemplo: 'Estaba parkeando chillin en la chantin.'
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Chinguear"
+			android:id="@+id/tvChinguearTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bChinguearSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvChinguearDef"
+		android:layout_width="fill_parent"
+		android:text="(Verb.) Apostar.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Chiva"
+			android:id="@+id/tvChivaTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bChivaSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvChivaDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Transporte colectivo de capacidad media.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Chiwi"
+			android:id="@+id/tvChiwiTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bChiwiSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvChiwiDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Una merienda que viene del inglés 'cheese whiz'.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Cholo"
+			android:id="@+id/tvCholoTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bCholoSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvCholoDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) En zonas del interior, se usa para referirse a un amigo. En zonas urbanas, se usa para referirse a personas del interior.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Chombo"
+			android:id="@+id/tvChomboTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bChomboSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvChomboDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Persona de raza negra.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Chotear"
+			android:id="@+id/tvChotearTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bChotearSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvChotearDef"
+		android:layout_width="fill_parent"
+		android:text="(Verb.) Dícese de un saludo amistoso que puede o no ir asociado a golpearse las palmas de las manos efusivamente en señal de celebración o aprobación. En las regiones del interior del país la connotación puede también estar ligada a embromar (vacilar) a otro, mediante un chiste o una broma.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Chuleta"
+			android:id="@+id/tvChuletaTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bChuletaSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvChuletaDef"
+		android:layout_width="fill_parent"
+		android:text="(Interjec.) Exclamación de sorpresa o admiración.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Chupar"
+			android:id="@+id/tvChuparTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bChuparSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvChuparDef"
+		android:layout_width="fill_parent"
+		android:text="(Verb.) Ingerir bebidas alcohólicas.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Chuzo"
+			android:id="@+id/tvChuzoTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bChuzoSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvChuzoDef"
+		android:layout_width="fill_parent"
+		android:text="Ver 'Chuleta'.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Compa"
+			android:id="@+id/tvCompaTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bCompaSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvCompaDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Frase cariñosa refiriéndose a un campesino, a un compadre o buen amigo.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Conflei"
+			android:id="@+id/tvConfleiTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bConfleiSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvConfleiDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Hojuelas de maíz. Cualquiera clase de cereal.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Cool"
+			android:id="@+id/tvCoolTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bCoolSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvCoolDef"
+		android:layout_width="fill_parent"
+		android:text="(Adj.) Bien, bueno.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Coscorrón"
+			android:id="@+id/tvCoscorronTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bCoscorronSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvCoscorronDef"
+		android:layout_width="fill_parent"
+		android:text="1. (Sust.) (normalmente 'cocorrón') Insecto redondo y cafe. 2. (Sust.) Golpe dado con los nudillos.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Cuara"
+			android:id="@+id/tvCuaraTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bCuaraSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvCuaraDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) 25 centavos. Viene del inglés 'quarter'.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Culantro"
+			android:id="@+id/tvCulantroTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bCulantroSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvCulantroDef"
+		android:layout_width="fill_parent"
+		android:text="1. (Sust.) Una bella dama. Proveniente del Segmento Doble Vida del programa televisivo Parecen Noticias. 2. (Sust.) Planta que se utiliza para sazonar sopas y otros alimentos.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Culei"
+			android:id="@+id/tvCuleiTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bCuleiSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvCuleiDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Bebida Instantánea Kool-Aid.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Dain"
+			android:id="@+id/tvDainTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bDainSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvDainDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) 10 centavos. Viene del inglés 'dime'.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Datien"
+			android:id="@+id/tvDatienTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bDatienSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvDatienDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Tienda (sílabas 'tien-' y '-da' puestas al revés lo cual es común en Panamá y se llama un traspalante).
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Diablo Rojo"
+			android:id="@+id/tvDiabloRojoTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bDiabloRojoSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvDiabloRojoDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Autobús generalmente pintado de varios colores procedente de las escuelas estadounidenses que comúnmente se les llama borradores por el efecto que produce durante una colision.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Focop"
+			android:id="@+id/tvFocopTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bFocopSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvFocopDef"
+		android:layout_width="fill_parent"
+		android:text="(Adj.) Feo, en mal estado. Viene del inglés 'fucked up'. 
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Fren"
+			android:id="@+id/tvFrenTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bFrenSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvFrenDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Amigo. Viene del inglés 'friend'.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Fulo"
+			android:id="@+id/tvFuloTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bFuloSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvFuloDef"
+		android:layout_width="fill_parent"
+		android:text="(Adj.) Rubio/a.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Fundillo"
+			android:id="@+id/tvFundilloTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bFundilloSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvFundilloDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Trasero.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Gallo"
+			android:id="@+id/tvGalloTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bGalloSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvGalloDef"
+		android:layout_width="fill_parent"
+		android:text="1. (Adj.) Barato, de poca calidad. 2. (Sust.) Persona sin gracia.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Garnatón"
+			android:id="@+id/tvGarnatonTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bGarnatonSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvGarnatonDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Bofetón. También se usa 'garnatada'. Garnatada normalmente se pronuncia 'garnatá'.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Grajo"
+			android:id="@+id/tvGrajoTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bGrajoSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvGrajoDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Sudor de las áxilas sumamente apestoso.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Grubear"
+			android:id="@+id/tvGrubearTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bGrubearSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvGrubearDef"
+		android:layout_width="fill_parent"
+		android:text="(Verb.) Estar con una persona por un tiempo o por una noche para pasarla bien y para nada serio o formal.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Guachiman"
+			android:id="@+id/tvGuachimanTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bGuachimanSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvGuachimanDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Celador nocturno (anglicismo, derivado de 'watchman').
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Guacho"
+			android:id="@+id/tvGuachoTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bGuachoSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvGuachoDef"
+		android:layout_width="fill_parent"
+		android:text="1. (Sust.) Sopa espesa que lleva ñame, yuca, culantro, arroz, verduras y alguna carne, que puede ser res, rabito de puerco o chicharrón. El guacho se sirve tradicionalmente en una 'totuma', plato que se fabrica partiendo a la mitad unos frutos redondos y duros que crecen en el monte. 2. (Sust.) La combinacion de varias cosas.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Guaro"
+			android:id="@+id/tvGuaroTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bGuaroSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvGuaroDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Alcohol, bebiba alcohólica, licor.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Guial"
+			android:id="@+id/tvGuialTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bGuialSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvGuialDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Chica/mujer. Viene del inglés 'girl'.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Huevear"
+			android:id="@+id/tvHuevearTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bHuevearSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvHuevearDef"
+		android:layout_width="fill_parent"
+		android:text="(Verb.) Perder el tiempo de la peor forma. Ejemplo: ¡Pónte a trabajá y deja de 'ta hueveando!
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Joder"
+			android:id="@+id/tvJoderTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bJoderSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvJoderDef"
+		android:layout_width="fill_parent"
+		android:text="(Verb.) Sinónimo vulgar de bromear, molestar, irritar. Ejemplo: '¡No jodas!'
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Juega Vivo"
+			android:id="@+id/tvJuegaVivoTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bJuegaVivoSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvJuegaVivoDef"
+		android:layout_width="fill_parent"
+		android:text="(Adj.) Oportunista, con astucia, generalmente sin moral.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Laope"
+			android:id="@+id/tvLaopeTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bLaopeSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvLaopeDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Pelao, muchacho (sílabas 'pe-' y '-lao' puestas al revés lo cual es común en Panamá y se llama un traspalante).
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Levante"
+			android:id="@+id/tvLevanteTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bLevanteSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvLevanteDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Alguien con el/la cual hay química.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Limpio"
+			android:id="@+id/tvLimpioTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bLimpioSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvLimpioDef"
+		android:layout_width="fill_parent"
+		android:text="(Adj.) Sin dinero.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Liquipeiper"
+			android:id="@+id/tvLiquipeiperTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bLiquipeiperSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvLiquipeiperDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Palabra usada para los correctores líquidos. Viene del inglés liquid paper.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Lleca"
+			android:id="@+id/tvLlecaTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bLlecaSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvLlecaDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Calle (sílabas 'ca-' y '-lle' puestas al revés lo cual es común en Panamá y se llama un traspalante).
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Loco"
+			android:id="@+id/tvLocoTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bLocoSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvLocoDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Es como se llaman a los amigos de cariño. Muy común entre oriundos de Panamá.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Machoemonte"
+			android:id="@+id/tvMachoemonteTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bMachoemonteSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvMachoemonteDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Tipo mas fuerte que Rambo.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Mafá"
+			android:id="@+id/tvMafaTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bMafaSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvMafaDef"
+		android:layout_width="fill_parent"
+		android:text="1. (Sust.) Abrebocas de harina (fritura) en forma de trenza. 2. (Sust.) Dícese de un enredo, asunto complicado. 3 (Sust.) Personas abrazadas de forma muy afectiva. Ejemplo: Esos dos andan como mafá.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Maleante"
+			android:id="@+id/tvMaleanteTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bMaleanteSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvMaleanteDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Delincuente o persona que quiere ser como los delincuentes.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Man"
+			android:id="@+id/tvManTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bManSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvManDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Literalmente se traduce 'hombre', pero se usa para referirse a cualquier persona, incluso mujeres (la man). También se usa de muletilla. Ejemplo: Pero es que, man, no quiero ir.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Manzanillo"
+			android:id="@+id/tvManzanilloTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bManzanilloSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvManzanilloDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Persona sin personalidad, influenciable con facilidad.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Me vale verga"
+			android:id="@+id/tvMeValeVergaTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bMeValeVergaSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvMeValeVergaDef"
+		android:layout_width="fill_parent"
+		android:text="(Expresión vulgar) Situación que no genera ninguna clase de reacción ni de interés en la persona. También se dice, 'Me vale un pepino', 'me vale un comino.'
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Meña"
+			android:id="@+id/tvMenaTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bMenaSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvMenaDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Jóvenes de la calle de mal hablar y vestir. Denota las últimas 4 letras de la nacionalidad Panameña. 
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Mili"
+			android:id="@+id/tvMiliTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bMiliSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvMiliDef"
+		android:layout_width="fill_parent"
+		android:text="(Adv.) Descuidado, de apuro. Viene del inglés melee. Ejemplo: Esto fue hecho de a mili.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Nevera"
+			android:id="@+id/tvNeveraTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bNeveraSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvNeveraDef"
+		android:layout_width="fill_parent"
+		android:text="1. (Sust.) Refrigeradora. 2. (Sust.) Autobús con aire acondicionado como los que van a diferentes provincias porque normalmente van a temperaturas muy frías. 3. (Sust.) Mujer cuadrada.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="No fitin"
+			android:id="@+id/tvNoFitinTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bNoFitinSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvNoFitinDef"
+		android:layout_width="fill_parent"
+		android:text="(Expresión) No me pidan, no voy a brindar.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="No me parece"
+			android:id="@+id/tvNoMePareceTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bNoMePareceSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvNoMePareceDef"
+		android:layout_width="fill_parent"
+		android:text="(Expresión) Frase popularmente utilizada para demostrar descontento por algo.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Ofi"
+			android:id="@+id/tvOfiTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bOfiSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvOfiDef"
+		android:layout_width="fill_parent"
+		android:text="(Interj.) Entendido, OK (acortación de 'oficial', utilizado para aprobar o recibir aprobación).
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Ombe"
+			android:id="@+id/tvOmbeTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bOmbeSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvOmbeDef"
+		android:layout_width="fill_parent"
+		android:text="(Interj.) Geez, Dios mío.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Paciero"
+			android:id="@+id/tvPacieroTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bPacieroSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvPacieroDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Amigo, generalmente con quien se comparte parrandas.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Palante"
+			android:id="@+id/tvPalanteTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bPalanteSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvPalanteDef"
+		android:layout_width="fill_parent"
+		android:text="(Adv.) Reducción derivada de 'para adelante'.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Parkin"
+			android:id="@+id/tvParkinTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bParkinSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvParkinDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Fiesta o reunión entre amigos.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Parquear"
+			android:id="@+id/tvParquearTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bParquearSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvParquearDef"
+		android:layout_width="fill_parent"
+		android:text="1. (Verb.) Salir con alguien a pasar el rato. Ejemplo: Voy a parquear con mis amigos. 2. (Verb.) Poner a alguien en su sitio. Ejemplo: Quiso insultarme y lo parqueé. 
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Patacón"
+			android:id="@+id/tvPataconTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bPataconSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvPataconDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Popular acompañamiento de comida, el cual consiste en rodajas de plátano aplastadas y luego fritas.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Patatús"
+			android:id="@+id/tvPatatusTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bPatatusSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvPatatusDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Desmayo, ataque cardíaco.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Pay"
+			android:id="@+id/tvPayTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bPaySound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvPayDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Chica/mujer hermosa. Viene del inglés pie que es dulce.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Perro"
+			android:id="@+id/tvPerroTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bPerroSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvPerroDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Despectivo utilizado como sinónimo de mujeriego.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Peso"
+			android:id="@+id/tvPesoTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bPesoSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvPesoDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Moneda de 50 centavos, viene del periodo de la separación de Panama de Colombia donde equivalía el peso colombiano a 50 centavos de dólar; usado comúnmente en las peleas de gallos para cuantificar las apuestas.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Picando"
+			android:id="@+id/tvPicandoTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bPicandoSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvPicandoDef"
+		android:layout_width="fill_parent"
+		android:text="(Adv.) Algo que está de moda. Su uso se debe al famoso baile del 'pique', en Panamá. Ejemplo: Ese nuevo baile está picando.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Piedrero"
+			android:id="@+id/tvPiedreroTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bPiedreroSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvPiedreroDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Persona drogadicta que ha llegado a la indigencia por ser drogadicto.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Pilar"
+			android:id="@+id/tvPilarTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bPilarSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvPilarDef"
+		android:layout_width="fill_parent"
+		android:text="(Verb.) Estudiar con afón. Palabra relacionada: 'pilón(a)' es alguien muy estudiso o sabelotodo.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Pinta"
+			android:id="@+id/tvPintaTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bPintaSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvPintaDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Cerveza. También se dice 'fría'.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Plena"
+			android:id="@+id/tvPlenaTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bPlenaSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvPlenaDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Usado para referirse a canciones/ritmos de reggae panameño pero también usada para otros géneros cuando la cancion es buena.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Ponchera"
+			android:id="@+id/tvPoncheraTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bPoncheraSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvPoncheraDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Desorden, algarabía.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Praka praka"
+			android:id="@+id/tvPrakaPrakaTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bPrakaPrakaSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvPrakaPrakaDef"
+		android:layout_width="fill_parent"
+		android:text="(Adj.) Derivación de Rakataca.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Priti"
+			android:id="@+id/tvPritiTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bPritiSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvPritiDef"
+		android:layout_width="fill_parent"
+		android:text="(Adj.) Sinónimo de cool. Viene del inglés 'pretty'.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Qué xopa"
+			android:id="@+id/tvQueXopaTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bQueXopaSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvQueXopaDef"
+		android:layout_width="fill_parent"
+		android:text="(Expresión) Derivado de ¿qué pasó? (sílabas 'pa-' y '-so' puestas al revés lo cual es común en Panamá y se llama un traspalante)
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Que lo que e'"
+			android:id="@+id/tvQueloqueeTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bQueloqueeSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvQueloqueeDef"
+		android:layout_width="fill_parent"
+		android:text="(Expresión) Sinónimo de ¿Qué hay de nuevo?. Pronunciado 'que lo que é' o 'queloqué'.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Quemado"
+			android:id="@+id/tvQuemadoTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bQuemadoSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvQuemadoDef"
+		android:layout_width="fill_parent"
+		android:text="(Adj.) Persona a la cual su novio/novia esposo/esposa lo ha traicionado con otra/o.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Rakataca"
+			android:id="@+id/tvRakatacaTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bRakatacaSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvRakatacaDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Hombe o mujer sin clase. Derivado del sonido de las metralletas al disparar 'rakatakatakatakataka' popularizado durante una canción del grupo Jam &amp; Suppose en 1992: 'Camión lleno de gun'.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Rantan"
+			android:id="@+id/tvRantanTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bRantanSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvRantanDef"
+		android:layout_width="fill_parent"
+		android:text="(Adv.) Mucho.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Real"
+			android:id="@+id/tvRealTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bRealSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvRealDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Moneda de 5 centésimos de balboa.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Rilax"
+			android:id="@+id/tvRilaxTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bRilaxSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvRilaxDef"
+		android:layout_width="fill_parent"
+		android:text="(Adj.) Relajado. Viene del inglés 'relax'. Sinónimo de 'chillin'.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Rispect"
+			android:id="@+id/tvRispectTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bRispectSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvRispectDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Usado coloquialmente como saludo de alta estima. Viene del inglés 'respect'. Ejemplo: 'Te mando un rispect'.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Sala'o"
+			android:id="@+id/tvSaladoTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bSaladoSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvSaladoDef"
+		android:layout_width="fill_parent"
+		android:text="(Adj.) Persona que tiene mala suerte. Normalmente se dice 'sala'o (a)'. Ejemplo: Mario, tú, estás salado en la lotería.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Sarao"
+			android:id="@+id/tvSaraoTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bSaraoSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvSaraoDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Fiesta o baile organizada generalmente por el segundo ciclo de secundaria. Típicamente se realiza en horas de la tarde, en el gimnasio de la escuela. Dícese de cualquier fiesta en que el objetivo principal es bailar.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Sólido"
+			android:id="@+id/tvSolidoTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bSolidoSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvSolidoDef"
+		android:layout_width="fill_parent"
+		android:text="(Adj.) Excelente. También 'chévere'.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="'ta bien"
+			android:id="@+id/tvTaBienTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bTaBienSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvTaBienDef"
+		android:layout_width="fill_parent"
+		android:text="(viene de: está bien; se le da significado según la dicción, pronunciación y el tono de la voz usada por la persona) Algo sorprendente; falso; exagerado; emocionante; todos los significados anteriores a la vez.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Tarrantan"
+			android:id="@+id/tvTarrantanTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bTarrantanSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvTarrantanDef"
+		android:layout_width="fill_parent"
+		android:text="(Adv.) Más que rantan. Muchísimo.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Tatai"
+			android:id="@+id/tvTataiTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bTataiSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvTataiDef"
+		android:layout_width="fill_parent"
+		android:text="(Interj.) Bye, hasta luego, nos vemos.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Tinaco"
+			android:id="@+id/tvTinacoTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bTinacoSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvTinacoDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Cualquier cesto de basura. Su nombre proviene de 'Tin &amp; Co.', compañía que se encargaba de la recolección de la basura en Ciudad de Panamá y Colón en tiempos de la construcción del Canal de Panamá y durante mucho tiempo en Panamá que en los cestos de la basura decía el nombre de la compañía.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Vaina"
+			android:id="@+id/tvVainaTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bVainaSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvVainaDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Utilizado como comodín en conversaciones, usado por cosa (también usado en otros países con el mismo significado).
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Vale cebo"
+			android:id="@+id/tvValeCeboTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bValeCeboSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvValeCeboDef"
+		android:layout_width="fill_parent"
+		android:text="(Expresión) Dícese de una situación injusta o estúpida.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Violinista"
+			android:id="@+id/tvViolinistaTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bViolinistaSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvViolinistaDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Persona que acompaña a una pareja pero no debe estar presente pues la pareja quiere pasar tiempo a solas.
+">
+	</TextView>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<TextView android:text="Yeyé"
+			android:id="@+id/tvYeyeTerm"
+			android:textSize="25sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="10"
+			android:typeface="serif"
+			android:textStyle="bold"
+			android:textColor="#ffffff" >
+		</TextView>
+		<Button android:layout_height="fill_parent"
+			android:id="@+id/bYeyeSound"
+			android:layout_width="22dp"
+			android:background="@drawable/custom"
+			android:typeface="serif" >
+		</Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:id="@+id/tvYeyeDef"
+		android:layout_width="fill_parent"
+		android:text="(Sust.) Persona adinerada que presume de su condición, comúnmente usa anglicismos en su habla.
+">
+	</TextView>
+
+
+	</LinearLayout>
+</ScrollView>
