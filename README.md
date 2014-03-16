@@ -3,4 +3,4 @@ Spanish dictionary for regional phrases and words (read: slang, so some entries 
 Current status: In-progress (search functionality pending)
 
 Screenshot:
-![alt tag](https://raw.github.com/jecw/ptydictionary/master/ptydictionaryscreenshot.png)
+![alt tag](https://raw.github.com/jecw/ptydictionary/master/ptydiccionarioscreenshot.png)
